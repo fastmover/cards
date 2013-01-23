@@ -1,0 +1,879 @@
+3.2.5 (Media Mark)
+ca53bf6f715689a42e59ad2c3e0aea130919bbf9
+o:Sass::Tree::RootNode
+:@template"n}@import "compass/utilities/sprites/base";
+
+// General Sprite Defaults
+// You can override them before you import this file.
+$classic-cards-sprite-base-class: ".classic-cards-sprite" !default;
+$classic-cards-sprite-dimensions: false !default;
+$classic-cards-position: 0% !default;
+$classic-cards-spacing: 0 !default;
+$classic-cards-repeat: no-repeat !default;
+$classic-cards-prefix: '' !default;
+$classic-cards-clean-up: true !default;
+$classic-cards-layout:vertical !default;
+$classic-cards-inline: false !default;
+
+  
+ // These variables control the generated sprite output
+ // You can override them selectively before you import this file.
+ 
+   $classic-cards-back-h-1-position: $classic-cards-position !default;
+   $classic-cards-back-h-1-spacing:  $classic-cards-spacing !default;
+   $classic-cards-back-h-1-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-back-h-2-position: $classic-cards-position !default;
+   $classic-cards-back-h-2-spacing:  $classic-cards-spacing !default;
+   $classic-cards-back-h-2-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-back-h-bottom-2-position: $classic-cards-position !default;
+   $classic-cards-back-h-bottom-2-spacing:  $classic-cards-spacing !default;
+   $classic-cards-back-h-bottom-2-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-back-h-bottom-position: $classic-cards-position !default;
+   $classic-cards-back-h-bottom-spacing:  $classic-cards-spacing !default;
+   $classic-cards-back-h-bottom-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-back-h-top-2-position: $classic-cards-position !default;
+   $classic-cards-back-h-top-2-spacing:  $classic-cards-spacing !default;
+   $classic-cards-back-h-top-2-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-back-h-top-position: $classic-cards-position !default;
+   $classic-cards-back-h-top-spacing:  $classic-cards-spacing !default;
+   $classic-cards-back-h-top-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-back-v-1-position: $classic-cards-position !default;
+   $classic-cards-back-v-1-spacing:  $classic-cards-spacing !default;
+   $classic-cards-back-v-1-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-back-v-2-position: $classic-cards-position !default;
+   $classic-cards-back-v-2-spacing:  $classic-cards-spacing !default;
+   $classic-cards-back-v-2-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-back-v-left-2-position: $classic-cards-position !default;
+   $classic-cards-back-v-left-2-spacing:  $classic-cards-spacing !default;
+   $classic-cards-back-v-left-2-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-back-v-left-position: $classic-cards-position !default;
+   $classic-cards-back-v-left-spacing:  $classic-cards-spacing !default;
+   $classic-cards-back-v-left-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-back-v-right-2-position: $classic-cards-position !default;
+   $classic-cards-back-v-right-2-spacing:  $classic-cards-spacing !default;
+   $classic-cards-back-v-right-2-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-back-v-right-position: $classic-cards-position !default;
+   $classic-cards-back-v-right-spacing:  $classic-cards-spacing !default;
+   $classic-cards-back-v-right-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-clubs-10-position: $classic-cards-position !default;
+   $classic-cards-clubs-10-spacing:  $classic-cards-spacing !default;
+   $classic-cards-clubs-10-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-clubs-2-position: $classic-cards-position !default;
+   $classic-cards-clubs-2-spacing:  $classic-cards-spacing !default;
+   $classic-cards-clubs-2-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-clubs-3-position: $classic-cards-position !default;
+   $classic-cards-clubs-3-spacing:  $classic-cards-spacing !default;
+   $classic-cards-clubs-3-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-clubs-4-position: $classic-cards-position !default;
+   $classic-cards-clubs-4-spacing:  $classic-cards-spacing !default;
+   $classic-cards-clubs-4-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-clubs-5-position: $classic-cards-position !default;
+   $classic-cards-clubs-5-spacing:  $classic-cards-spacing !default;
+   $classic-cards-clubs-5-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-clubs-6-position: $classic-cards-position !default;
+   $classic-cards-clubs-6-spacing:  $classic-cards-spacing !default;
+   $classic-cards-clubs-6-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-clubs-7-position: $classic-cards-position !default;
+   $classic-cards-clubs-7-spacing:  $classic-cards-spacing !default;
+   $classic-cards-clubs-7-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-clubs-8-position: $classic-cards-position !default;
+   $classic-cards-clubs-8-spacing:  $classic-cards-spacing !default;
+   $classic-cards-clubs-8-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-clubs-9-position: $classic-cards-position !default;
+   $classic-cards-clubs-9-spacing:  $classic-cards-spacing !default;
+   $classic-cards-clubs-9-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-clubs-a-position: $classic-cards-position !default;
+   $classic-cards-clubs-a-spacing:  $classic-cards-spacing !default;
+   $classic-cards-clubs-a-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-clubs-j-position: $classic-cards-position !default;
+   $classic-cards-clubs-j-spacing:  $classic-cards-spacing !default;
+   $classic-cards-clubs-j-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-clubs-k-position: $classic-cards-position !default;
+   $classic-cards-clubs-k-spacing:  $classic-cards-spacing !default;
+   $classic-cards-clubs-k-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-clubs-q-position: $classic-cards-position !default;
+   $classic-cards-clubs-q-spacing:  $classic-cards-spacing !default;
+   $classic-cards-clubs-q-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-diamonds-10-position: $classic-cards-position !default;
+   $classic-cards-diamonds-10-spacing:  $classic-cards-spacing !default;
+   $classic-cards-diamonds-10-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-diamonds-2-position: $classic-cards-position !default;
+   $classic-cards-diamonds-2-spacing:  $classic-cards-spacing !default;
+   $classic-cards-diamonds-2-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-diamonds-3-position: $classic-cards-position !default;
+   $classic-cards-diamonds-3-spacing:  $classic-cards-spacing !default;
+   $classic-cards-diamonds-3-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-diamonds-4-position: $classic-cards-position !default;
+   $classic-cards-diamonds-4-spacing:  $classic-cards-spacing !default;
+   $classic-cards-diamonds-4-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-diamonds-5-position: $classic-cards-position !default;
+   $classic-cards-diamonds-5-spacing:  $classic-cards-spacing !default;
+   $classic-cards-diamonds-5-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-diamonds-6-position: $classic-cards-position !default;
+   $classic-cards-diamonds-6-spacing:  $classic-cards-spacing !default;
+   $classic-cards-diamonds-6-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-diamonds-7-position: $classic-cards-position !default;
+   $classic-cards-diamonds-7-spacing:  $classic-cards-spacing !default;
+   $classic-cards-diamonds-7-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-diamonds-8-position: $classic-cards-position !default;
+   $classic-cards-diamonds-8-spacing:  $classic-cards-spacing !default;
+   $classic-cards-diamonds-8-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-diamonds-9-position: $classic-cards-position !default;
+   $classic-cards-diamonds-9-spacing:  $classic-cards-spacing !default;
+   $classic-cards-diamonds-9-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-diamonds-a-position: $classic-cards-position !default;
+   $classic-cards-diamonds-a-spacing:  $classic-cards-spacing !default;
+   $classic-cards-diamonds-a-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-diamonds-j-position: $classic-cards-position !default;
+   $classic-cards-diamonds-j-spacing:  $classic-cards-spacing !default;
+   $classic-cards-diamonds-j-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-diamonds-k-position: $classic-cards-position !default;
+   $classic-cards-diamonds-k-spacing:  $classic-cards-spacing !default;
+   $classic-cards-diamonds-k-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-diamonds-q-position: $classic-cards-position !default;
+   $classic-cards-diamonds-q-spacing:  $classic-cards-spacing !default;
+   $classic-cards-diamonds-q-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-hearts-10-position: $classic-cards-position !default;
+   $classic-cards-hearts-10-spacing:  $classic-cards-spacing !default;
+   $classic-cards-hearts-10-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-hearts-2-position: $classic-cards-position !default;
+   $classic-cards-hearts-2-spacing:  $classic-cards-spacing !default;
+   $classic-cards-hearts-2-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-hearts-3-position: $classic-cards-position !default;
+   $classic-cards-hearts-3-spacing:  $classic-cards-spacing !default;
+   $classic-cards-hearts-3-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-hearts-4-position: $classic-cards-position !default;
+   $classic-cards-hearts-4-spacing:  $classic-cards-spacing !default;
+   $classic-cards-hearts-4-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-hearts-6-position: $classic-cards-position !default;
+   $classic-cards-hearts-6-spacing:  $classic-cards-spacing !default;
+   $classic-cards-hearts-6-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-hearts-7-position: $classic-cards-position !default;
+   $classic-cards-hearts-7-spacing:  $classic-cards-spacing !default;
+   $classic-cards-hearts-7-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-hearts-8-position: $classic-cards-position !default;
+   $classic-cards-hearts-8-spacing:  $classic-cards-spacing !default;
+   $classic-cards-hearts-8-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-hearts-9-position: $classic-cards-position !default;
+   $classic-cards-hearts-9-spacing:  $classic-cards-spacing !default;
+   $classic-cards-hearts-9-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-hearts-a-position: $classic-cards-position !default;
+   $classic-cards-hearts-a-spacing:  $classic-cards-spacing !default;
+   $classic-cards-hearts-a-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-hearts-j-position: $classic-cards-position !default;
+   $classic-cards-hearts-j-spacing:  $classic-cards-spacing !default;
+   $classic-cards-hearts-j-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-hearts-k-position: $classic-cards-position !default;
+   $classic-cards-hearts-k-spacing:  $classic-cards-spacing !default;
+   $classic-cards-hearts-k-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-hearts-q-position: $classic-cards-position !default;
+   $classic-cards-hearts-q-spacing:  $classic-cards-spacing !default;
+   $classic-cards-hearts-q-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-herats-5-position: $classic-cards-position !default;
+   $classic-cards-herats-5-spacing:  $classic-cards-spacing !default;
+   $classic-cards-herats-5-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-joker-1-position: $classic-cards-position !default;
+   $classic-cards-joker-1-spacing:  $classic-cards-spacing !default;
+   $classic-cards-joker-1-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-joker-2-position: $classic-cards-position !default;
+   $classic-cards-joker-2-spacing:  $classic-cards-spacing !default;
+   $classic-cards-joker-2-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-spades-10-position: $classic-cards-position !default;
+   $classic-cards-spades-10-spacing:  $classic-cards-spacing !default;
+   $classic-cards-spades-10-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-spades-2-position: $classic-cards-position !default;
+   $classic-cards-spades-2-spacing:  $classic-cards-spacing !default;
+   $classic-cards-spades-2-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-spades-3-position: $classic-cards-position !default;
+   $classic-cards-spades-3-spacing:  $classic-cards-spacing !default;
+   $classic-cards-spades-3-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-spades-4-position: $classic-cards-position !default;
+   $classic-cards-spades-4-spacing:  $classic-cards-spacing !default;
+   $classic-cards-spades-4-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-spades-5-position: $classic-cards-position !default;
+   $classic-cards-spades-5-spacing:  $classic-cards-spacing !default;
+   $classic-cards-spades-5-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-spades-6-position: $classic-cards-position !default;
+   $classic-cards-spades-6-spacing:  $classic-cards-spacing !default;
+   $classic-cards-spades-6-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-spades-7-position: $classic-cards-position !default;
+   $classic-cards-spades-7-spacing:  $classic-cards-spacing !default;
+   $classic-cards-spades-7-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-spades-8-position: $classic-cards-position !default;
+   $classic-cards-spades-8-spacing:  $classic-cards-spacing !default;
+   $classic-cards-spades-8-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-spades-9-position: $classic-cards-position !default;
+   $classic-cards-spades-9-spacing:  $classic-cards-spacing !default;
+   $classic-cards-spades-9-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-spades-a-position: $classic-cards-position !default;
+   $classic-cards-spades-a-spacing:  $classic-cards-spacing !default;
+   $classic-cards-spades-a-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-spades-j-position: $classic-cards-position !default;
+   $classic-cards-spades-j-spacing:  $classic-cards-spacing !default;
+   $classic-cards-spades-j-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-spades-k-position: $classic-cards-position !default;
+   $classic-cards-spades-k-spacing:  $classic-cards-spacing !default;
+   $classic-cards-spades-k-repeat:   $classic-cards-repeat !default;
+ 
+   $classic-cards-spades-q-position: $classic-cards-position !default;
+   $classic-cards-spades-q-spacing:  $classic-cards-spacing !default;
+   $classic-cards-spades-q-repeat:   $classic-cards-repeat !default;
+ 
+
+ $classic-cards-sprites: sprite-map("classic-cards/*.png",
+ 
+   $classic-cards-back-h-1-position: $classic-cards-back-h-1-position, 
+   $classic-cards-back-h-1-spacing:  $classic-cards-back-h-1-spacing, 
+   $classic-cards-back-h-1-repeat:   $classic-cards-back-h-1-repeat,
+ 
+   $classic-cards-back-h-2-position: $classic-cards-back-h-2-position, 
+   $classic-cards-back-h-2-spacing:  $classic-cards-back-h-2-spacing, 
+   $classic-cards-back-h-2-repeat:   $classic-cards-back-h-2-repeat,
+ 
+   $classic-cards-back-h-bottom-2-position: $classic-cards-back-h-bottom-2-position, 
+   $classic-cards-back-h-bottom-2-spacing:  $classic-cards-back-h-bottom-2-spacing, 
+   $classic-cards-back-h-bottom-2-repeat:   $classic-cards-back-h-bottom-2-repeat,
+ 
+   $classic-cards-back-h-bottom-position: $classic-cards-back-h-bottom-position, 
+   $classic-cards-back-h-bottom-spacing:  $classic-cards-back-h-bottom-spacing, 
+   $classic-cards-back-h-bottom-repeat:   $classic-cards-back-h-bottom-repeat,
+ 
+   $classic-cards-back-h-top-2-position: $classic-cards-back-h-top-2-position, 
+   $classic-cards-back-h-top-2-spacing:  $classic-cards-back-h-top-2-spacing, 
+   $classic-cards-back-h-top-2-repeat:   $classic-cards-back-h-top-2-repeat,
+ 
+   $classic-cards-back-h-top-position: $classic-cards-back-h-top-position, 
+   $classic-cards-back-h-top-spacing:  $classic-cards-back-h-top-spacing, 
+   $classic-cards-back-h-top-repeat:   $classic-cards-back-h-top-repeat,
+ 
+   $classic-cards-back-v-1-position: $classic-cards-back-v-1-position, 
+   $classic-cards-back-v-1-spacing:  $classic-cards-back-v-1-spacing, 
+   $classic-cards-back-v-1-repeat:   $classic-cards-back-v-1-repeat,
+ 
+   $classic-cards-back-v-2-position: $classic-cards-back-v-2-position, 
+   $classic-cards-back-v-2-spacing:  $classic-cards-back-v-2-spacing, 
+   $classic-cards-back-v-2-repeat:   $classic-cards-back-v-2-repeat,
+ 
+   $classic-cards-back-v-left-2-position: $classic-cards-back-v-left-2-position, 
+   $classic-cards-back-v-left-2-spacing:  $classic-cards-back-v-left-2-spacing, 
+   $classic-cards-back-v-left-2-repeat:   $classic-cards-back-v-left-2-repeat,
+ 
+   $classic-cards-back-v-left-position: $classic-cards-back-v-left-position, 
+   $classic-cards-back-v-left-spacing:  $classic-cards-back-v-left-spacing, 
+   $classic-cards-back-v-left-repeat:   $classic-cards-back-v-left-repeat,
+ 
+   $classic-cards-back-v-right-2-position: $classic-cards-back-v-right-2-position, 
+   $classic-cards-back-v-right-2-spacing:  $classic-cards-back-v-right-2-spacing, 
+   $classic-cards-back-v-right-2-repeat:   $classic-cards-back-v-right-2-repeat,
+ 
+   $classic-cards-back-v-right-position: $classic-cards-back-v-right-position, 
+   $classic-cards-back-v-right-spacing:  $classic-cards-back-v-right-spacing, 
+   $classic-cards-back-v-right-repeat:   $classic-cards-back-v-right-repeat,
+ 
+   $classic-cards-clubs-10-position: $classic-cards-clubs-10-position, 
+   $classic-cards-clubs-10-spacing:  $classic-cards-clubs-10-spacing, 
+   $classic-cards-clubs-10-repeat:   $classic-cards-clubs-10-repeat,
+ 
+   $classic-cards-clubs-2-position: $classic-cards-clubs-2-position, 
+   $classic-cards-clubs-2-spacing:  $classic-cards-clubs-2-spacing, 
+   $classic-cards-clubs-2-repeat:   $classic-cards-clubs-2-repeat,
+ 
+   $classic-cards-clubs-3-position: $classic-cards-clubs-3-position, 
+   $classic-cards-clubs-3-spacing:  $classic-cards-clubs-3-spacing, 
+   $classic-cards-clubs-3-repeat:   $classic-cards-clubs-3-repeat,
+ 
+   $classic-cards-clubs-4-position: $classic-cards-clubs-4-position, 
+   $classic-cards-clubs-4-spacing:  $classic-cards-clubs-4-spacing, 
+   $classic-cards-clubs-4-repeat:   $classic-cards-clubs-4-repeat,
+ 
+   $classic-cards-clubs-5-position: $classic-cards-clubs-5-position, 
+   $classic-cards-clubs-5-spacing:  $classic-cards-clubs-5-spacing, 
+   $classic-cards-clubs-5-repeat:   $classic-cards-clubs-5-repeat,
+ 
+   $classic-cards-clubs-6-position: $classic-cards-clubs-6-position, 
+   $classic-cards-clubs-6-spacing:  $classic-cards-clubs-6-spacing, 
+   $classic-cards-clubs-6-repeat:   $classic-cards-clubs-6-repeat,
+ 
+   $classic-cards-clubs-7-position: $classic-cards-clubs-7-position, 
+   $classic-cards-clubs-7-spacing:  $classic-cards-clubs-7-spacing, 
+   $classic-cards-clubs-7-repeat:   $classic-cards-clubs-7-repeat,
+ 
+   $classic-cards-clubs-8-position: $classic-cards-clubs-8-position, 
+   $classic-cards-clubs-8-spacing:  $classic-cards-clubs-8-spacing, 
+   $classic-cards-clubs-8-repeat:   $classic-cards-clubs-8-repeat,
+ 
+   $classic-cards-clubs-9-position: $classic-cards-clubs-9-position, 
+   $classic-cards-clubs-9-spacing:  $classic-cards-clubs-9-spacing, 
+   $classic-cards-clubs-9-repeat:   $classic-cards-clubs-9-repeat,
+ 
+   $classic-cards-clubs-a-position: $classic-cards-clubs-a-position, 
+   $classic-cards-clubs-a-spacing:  $classic-cards-clubs-a-spacing, 
+   $classic-cards-clubs-a-repeat:   $classic-cards-clubs-a-repeat,
+ 
+   $classic-cards-clubs-j-position: $classic-cards-clubs-j-position, 
+   $classic-cards-clubs-j-spacing:  $classic-cards-clubs-j-spacing, 
+   $classic-cards-clubs-j-repeat:   $classic-cards-clubs-j-repeat,
+ 
+   $classic-cards-clubs-k-position: $classic-cards-clubs-k-position, 
+   $classic-cards-clubs-k-spacing:  $classic-cards-clubs-k-spacing, 
+   $classic-cards-clubs-k-repeat:   $classic-cards-clubs-k-repeat,
+ 
+   $classic-cards-clubs-q-position: $classic-cards-clubs-q-position, 
+   $classic-cards-clubs-q-spacing:  $classic-cards-clubs-q-spacing, 
+   $classic-cards-clubs-q-repeat:   $classic-cards-clubs-q-repeat,
+ 
+   $classic-cards-diamonds-10-position: $classic-cards-diamonds-10-position, 
+   $classic-cards-diamonds-10-spacing:  $classic-cards-diamonds-10-spacing, 
+   $classic-cards-diamonds-10-repeat:   $classic-cards-diamonds-10-repeat,
+ 
+   $classic-cards-diamonds-2-position: $classic-cards-diamonds-2-position, 
+   $classic-cards-diamonds-2-spacing:  $classic-cards-diamonds-2-spacing, 
+   $classic-cards-diamonds-2-repeat:   $classic-cards-diamonds-2-repeat,
+ 
+   $classic-cards-diamonds-3-position: $classic-cards-diamonds-3-position, 
+   $classic-cards-diamonds-3-spacing:  $classic-cards-diamonds-3-spacing, 
+   $classic-cards-diamonds-3-repeat:   $classic-cards-diamonds-3-repeat,
+ 
+   $classic-cards-diamonds-4-position: $classic-cards-diamonds-4-position, 
+   $classic-cards-diamonds-4-spacing:  $classic-cards-diamonds-4-spacing, 
+   $classic-cards-diamonds-4-repeat:   $classic-cards-diamonds-4-repeat,
+ 
+   $classic-cards-diamonds-5-position: $classic-cards-diamonds-5-position, 
+   $classic-cards-diamonds-5-spacing:  $classic-cards-diamonds-5-spacing, 
+   $classic-cards-diamonds-5-repeat:   $classic-cards-diamonds-5-repeat,
+ 
+   $classic-cards-diamonds-6-position: $classic-cards-diamonds-6-position, 
+   $classic-cards-diamonds-6-spacing:  $classic-cards-diamonds-6-spacing, 
+   $classic-cards-diamonds-6-repeat:   $classic-cards-diamonds-6-repeat,
+ 
+   $classic-cards-diamonds-7-position: $classic-cards-diamonds-7-position, 
+   $classic-cards-diamonds-7-spacing:  $classic-cards-diamonds-7-spacing, 
+   $classic-cards-diamonds-7-repeat:   $classic-cards-diamonds-7-repeat,
+ 
+   $classic-cards-diamonds-8-position: $classic-cards-diamonds-8-position, 
+   $classic-cards-diamonds-8-spacing:  $classic-cards-diamonds-8-spacing, 
+   $classic-cards-diamonds-8-repeat:   $classic-cards-diamonds-8-repeat,
+ 
+   $classic-cards-diamonds-9-position: $classic-cards-diamonds-9-position, 
+   $classic-cards-diamonds-9-spacing:  $classic-cards-diamonds-9-spacing, 
+   $classic-cards-diamonds-9-repeat:   $classic-cards-diamonds-9-repeat,
+ 
+   $classic-cards-diamonds-a-position: $classic-cards-diamonds-a-position, 
+   $classic-cards-diamonds-a-spacing:  $classic-cards-diamonds-a-spacing, 
+   $classic-cards-diamonds-a-repeat:   $classic-cards-diamonds-a-repeat,
+ 
+   $classic-cards-diamonds-j-position: $classic-cards-diamonds-j-position, 
+   $classic-cards-diamonds-j-spacing:  $classic-cards-diamonds-j-spacing, 
+   $classic-cards-diamonds-j-repeat:   $classic-cards-diamonds-j-repeat,
+ 
+   $classic-cards-diamonds-k-position: $classic-cards-diamonds-k-position, 
+   $classic-cards-diamonds-k-spacing:  $classic-cards-diamonds-k-spacing, 
+   $classic-cards-diamonds-k-repeat:   $classic-cards-diamonds-k-repeat,
+ 
+   $classic-cards-diamonds-q-position: $classic-cards-diamonds-q-position, 
+   $classic-cards-diamonds-q-spacing:  $classic-cards-diamonds-q-spacing, 
+   $classic-cards-diamonds-q-repeat:   $classic-cards-diamonds-q-repeat,
+ 
+   $classic-cards-hearts-10-position: $classic-cards-hearts-10-position, 
+   $classic-cards-hearts-10-spacing:  $classic-cards-hearts-10-spacing, 
+   $classic-cards-hearts-10-repeat:   $classic-cards-hearts-10-repeat,
+ 
+   $classic-cards-hearts-2-position: $classic-cards-hearts-2-position, 
+   $classic-cards-hearts-2-spacing:  $classic-cards-hearts-2-spacing, 
+   $classic-cards-hearts-2-repeat:   $classic-cards-hearts-2-repeat,
+ 
+   $classic-cards-hearts-3-position: $classic-cards-hearts-3-position, 
+   $classic-cards-hearts-3-spacing:  $classic-cards-hearts-3-spacing, 
+   $classic-cards-hearts-3-repeat:   $classic-cards-hearts-3-repeat,
+ 
+   $classic-cards-hearts-4-position: $classic-cards-hearts-4-position, 
+   $classic-cards-hearts-4-spacing:  $classic-cards-hearts-4-spacing, 
+   $classic-cards-hearts-4-repeat:   $classic-cards-hearts-4-repeat,
+ 
+   $classic-cards-hearts-6-position: $classic-cards-hearts-6-position, 
+   $classic-cards-hearts-6-spacing:  $classic-cards-hearts-6-spacing, 
+   $classic-cards-hearts-6-repeat:   $classic-cards-hearts-6-repeat,
+ 
+   $classic-cards-hearts-7-position: $classic-cards-hearts-7-position, 
+   $classic-cards-hearts-7-spacing:  $classic-cards-hearts-7-spacing, 
+   $classic-cards-hearts-7-repeat:   $classic-cards-hearts-7-repeat,
+ 
+   $classic-cards-hearts-8-position: $classic-cards-hearts-8-position, 
+   $classic-cards-hearts-8-spacing:  $classic-cards-hearts-8-spacing, 
+   $classic-cards-hearts-8-repeat:   $classic-cards-hearts-8-repeat,
+ 
+   $classic-cards-hearts-9-position: $classic-cards-hearts-9-position, 
+   $classic-cards-hearts-9-spacing:  $classic-cards-hearts-9-spacing, 
+   $classic-cards-hearts-9-repeat:   $classic-cards-hearts-9-repeat,
+ 
+   $classic-cards-hearts-a-position: $classic-cards-hearts-a-position, 
+   $classic-cards-hearts-a-spacing:  $classic-cards-hearts-a-spacing, 
+   $classic-cards-hearts-a-repeat:   $classic-cards-hearts-a-repeat,
+ 
+   $classic-cards-hearts-j-position: $classic-cards-hearts-j-position, 
+   $classic-cards-hearts-j-spacing:  $classic-cards-hearts-j-spacing, 
+   $classic-cards-hearts-j-repeat:   $classic-cards-hearts-j-repeat,
+ 
+   $classic-cards-hearts-k-position: $classic-cards-hearts-k-position, 
+   $classic-cards-hearts-k-spacing:  $classic-cards-hearts-k-spacing, 
+   $classic-cards-hearts-k-repeat:   $classic-cards-hearts-k-repeat,
+ 
+   $classic-cards-hearts-q-position: $classic-cards-hearts-q-position, 
+   $classic-cards-hearts-q-spacing:  $classic-cards-hearts-q-spacing, 
+   $classic-cards-hearts-q-repeat:   $classic-cards-hearts-q-repeat,
+ 
+   $classic-cards-herats-5-position: $classic-cards-herats-5-position, 
+   $classic-cards-herats-5-spacing:  $classic-cards-herats-5-spacing, 
+   $classic-cards-herats-5-repeat:   $classic-cards-herats-5-repeat,
+ 
+   $classic-cards-joker-1-position: $classic-cards-joker-1-position, 
+   $classic-cards-joker-1-spacing:  $classic-cards-joker-1-spacing, 
+   $classic-cards-joker-1-repeat:   $classic-cards-joker-1-repeat,
+ 
+   $classic-cards-joker-2-position: $classic-cards-joker-2-position, 
+   $classic-cards-joker-2-spacing:  $classic-cards-joker-2-spacing, 
+   $classic-cards-joker-2-repeat:   $classic-cards-joker-2-repeat,
+ 
+   $classic-cards-spades-10-position: $classic-cards-spades-10-position, 
+   $classic-cards-spades-10-spacing:  $classic-cards-spades-10-spacing, 
+   $classic-cards-spades-10-repeat:   $classic-cards-spades-10-repeat,
+ 
+   $classic-cards-spades-2-position: $classic-cards-spades-2-position, 
+   $classic-cards-spades-2-spacing:  $classic-cards-spades-2-spacing, 
+   $classic-cards-spades-2-repeat:   $classic-cards-spades-2-repeat,
+ 
+   $classic-cards-spades-3-position: $classic-cards-spades-3-position, 
+   $classic-cards-spades-3-spacing:  $classic-cards-spades-3-spacing, 
+   $classic-cards-spades-3-repeat:   $classic-cards-spades-3-repeat,
+ 
+   $classic-cards-spades-4-position: $classic-cards-spades-4-position, 
+   $classic-cards-spades-4-spacing:  $classic-cards-spades-4-spacing, 
+   $classic-cards-spades-4-repeat:   $classic-cards-spades-4-repeat,
+ 
+   $classic-cards-spades-5-position: $classic-cards-spades-5-position, 
+   $classic-cards-spades-5-spacing:  $classic-cards-spades-5-spacing, 
+   $classic-cards-spades-5-repeat:   $classic-cards-spades-5-repeat,
+ 
+   $classic-cards-spades-6-position: $classic-cards-spades-6-position, 
+   $classic-cards-spades-6-spacing:  $classic-cards-spades-6-spacing, 
+   $classic-cards-spades-6-repeat:   $classic-cards-spades-6-repeat,
+ 
+   $classic-cards-spades-7-position: $classic-cards-spades-7-position, 
+   $classic-cards-spades-7-spacing:  $classic-cards-spades-7-spacing, 
+   $classic-cards-spades-7-repeat:   $classic-cards-spades-7-repeat,
+ 
+   $classic-cards-spades-8-position: $classic-cards-spades-8-position, 
+   $classic-cards-spades-8-spacing:  $classic-cards-spades-8-spacing, 
+   $classic-cards-spades-8-repeat:   $classic-cards-spades-8-repeat,
+ 
+   $classic-cards-spades-9-position: $classic-cards-spades-9-position, 
+   $classic-cards-spades-9-spacing:  $classic-cards-spades-9-spacing, 
+   $classic-cards-spades-9-repeat:   $classic-cards-spades-9-repeat,
+ 
+   $classic-cards-spades-a-position: $classic-cards-spades-a-position, 
+   $classic-cards-spades-a-spacing:  $classic-cards-spades-a-spacing, 
+   $classic-cards-spades-a-repeat:   $classic-cards-spades-a-repeat,
+ 
+   $classic-cards-spades-j-position: $classic-cards-spades-j-position, 
+   $classic-cards-spades-j-spacing:  $classic-cards-spades-j-spacing, 
+   $classic-cards-spades-j-repeat:   $classic-cards-spades-j-repeat,
+ 
+   $classic-cards-spades-k-position: $classic-cards-spades-k-position, 
+   $classic-cards-spades-k-spacing:  $classic-cards-spades-k-spacing, 
+   $classic-cards-spades-k-repeat:   $classic-cards-spades-k-repeat,
+ 
+   $classic-cards-spades-q-position: $classic-cards-spades-q-position, 
+   $classic-cards-spades-q-spacing:  $classic-cards-spades-q-spacing, 
+   $classic-cards-spades-q-repeat:   $classic-cards-spades-q-repeat,
+ 
+ $layout: $classic-cards-layout,
+ $cleanup: $classic-cards-clean-up
+ );
+
+
+// All sprites should extend this class
+// The classic-cards-sprite mixin will do so for you.
+@if $classic-cards-inline {
+  #{$classic-cards-sprite-base-class} {
+    background-image: inline-sprite($classic-cards-sprites);
+  } 
+} @else {
+  #{$classic-cards-sprite-base-class} {
+    background: $classic-cards-sprites no-repeat;
+  }
+}
+//sass functions to return the dimensions of a sprite image as units
+
+  @function classic-cards-sprite-width($name) {
+    $file: sprite_file($classic-cards-sprites, $name);
+    @return image-width($file);
+  }
+
+  @function classic-cards-sprite-height($name) {
+    $file: sprite_file($classic-cards-sprites, $name);
+    @return image-height($file);
+  }
+
+
+// Use this to set the dimensions of an element
+// based on the size of the original image.
+@mixin classic-cards-sprite-dimensions($name) {
+  @include sprite-dimensions($classic-cards-sprites, $name)
+}
+
+// Move the background position to display the sprite.
+@mixin classic-cards-sprite-position($name, $offset-x: 0, $offset-y: 0) {
+  @include sprite-background-position($classic-cards-sprites, $name, $offset-x, $offset-y)
+}
+
+// Extends the sprite base class and set the background position for the desired sprite.
+// It will also apply the image dimensions if $dimensions is true.
+@mixin classic-cards-sprite($name, $dimensions: $classic-cards-sprite-dimensions, $offset-x: 0, $offset-y: 0) {
+  @extend #{$classic-cards-sprite-base-class};
+  @include sprite($classic-cards-sprites, $name, $dimensions, $offset-x, $offset-y)
+}
+
+@mixin classic-cards-sprites($sprite-names, $dimensions: $classic-cards-sprite-dimensions, $prefix: sprite-map-name($classic-cards-sprites), $offset-x: 0, $offset-y: 0) {
+  @include sprites($classic-cards-sprites, $sprite-names, $classic-cards-sprite-base-class, $dimensions, $prefix, $offset-x, $offset-y)
+}
+
+// Generates a class for each sprited image.
+@mixin all-classic-cards-sprites($dimensions: $classic-cards-sprite-dimensions, $prefix: sprite-map-name($classic-cards-sprites), $offset-x: 0, $offset-y: 0) {
+  @include classic-cards-sprites(back-h-1 back-h-2 back-h-bottom-2 back-h-bottom back-h-top-2 back-h-top back-v-1 back-v-2 back-v-left-2 back-v-left back-v-right-2 back-v-right clubs-10 clubs-2 clubs-3 clubs-4 clubs-5 clubs-6 clubs-7 clubs-8 clubs-9 clubs-a clubs-j clubs-k clubs-q diamonds-10 diamonds-2 diamonds-3 diamonds-4 diamonds-5 diamonds-6 diamonds-7 diamonds-8 diamonds-9 diamonds-a diamonds-j diamonds-k diamonds-q hearts-10 hearts-2 hearts-3 hearts-4 hearts-6 hearts-7 hearts-8 hearts-9 hearts-a hearts-j hearts-k hearts-q herats-5 joker-1 joker-2 spades-10 spades-2 spades-3 spades-4 spades-5 spades-6 spades-7 spades-8 spades-9 spades-a spades-j spades-k spades-q, $dimensions, $prefix, $offset-x, $offset-y);
+}:
+@linei:@has_childrenT:@options{ :@children[·o:Sass::Tree::ImportNode;0:@imported_file0;i;	@:@imported_filename"#compass/utilities/sprites/base;
+[ o:Sass::Tree::CommentNode
+;i;	@;
+[ :
+@type:silent:@value["X/* General Sprite Defaults
+ * You can override them before you import this file. */o:Sass::Tree::VariableNode:@guarded"!default;i
+:
+@expro:Sass::Script::String	;i
+;	@;:string;".classic-cards-sprite;	@:
+@name"$classic-cards-sprite-base-class;
+[ o;;"!default;i;o:Sass::Script::Bool;i;	@;F;	@;"$classic-cards-sprite-dimensions;
+[ o;;"!default;i;o:Sass::Script::Number;i;	@:@denominator_units[ :@original"0%:@numerator_units["%;i ;	@;"classic-cards-position;
+[ o;;"!default;i;o;;i;	@;[ ;"0;[ ;i ;	@;"classic-cards-spacing;
+[ o;;"!default;i;o;	;i;	@;:identifier;"no-repeat;	@;"classic-cards-repeat;
+[ o;;"!default;i;o;	;i;	@;;;" ;	@;"classic-cards-prefix;
+[ o;;"!default;i;o;;i;	@;T;	@;"classic-cards-clean-up;
+[ o;;"!default;i;o;	;i;	@;;;"vertical;	@;"classic-cards-layout;
+[ o;;"!default;i;o;;i;	@;F;	@;"classic-cards-inline;
+[ o;
+;i;	@;
+[ ;;;["{/* These variables control the generated sprite output
+ * You can override them selectively before you import this file. */o;;"!default;i;o:Sass::Script::Variable	;i:@underscored_name"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-back-h-1-position;
+[ o;;"!default;i;o;	;i;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-back-h-1-spacing;
+[ o;;"!default;i;o;	;i;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-back-h-1-repeat;
+[ o;;"!default;i;o;	;i;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-back-h-2-position;
+[ o;;"!default;i;o;	;i;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-back-h-2-spacing;
+[ o;;"!default;i;o;	;i;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-back-h-2-repeat;
+[ o;;"!default;i ;o;	;i ;"classic_cards_position;	@;"classic-cards-position;	@;"+classic-cards-back-h-bottom-2-position;
+[ o;;"!default;i!;o;	;i!;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"*classic-cards-back-h-bottom-2-spacing;
+[ o;;"!default;i";o;	;i";"classic_cards_repeat;	@;"classic-cards-repeat;	@;")classic-cards-back-h-bottom-2-repeat;
+[ o;;"!default;i$;o;	;i$;"classic_cards_position;	@;"classic-cards-position;	@;")classic-cards-back-h-bottom-position;
+[ o;;"!default;i%;o;	;i%;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"(classic-cards-back-h-bottom-spacing;
+[ o;;"!default;i&;o;	;i&;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"'classic-cards-back-h-bottom-repeat;
+[ o;;"!default;i(;o;	;i(;"classic_cards_position;	@;"classic-cards-position;	@;"(classic-cards-back-h-top-2-position;
+[ o;;"!default;i);o;	;i);"classic_cards_spacing;	@;"classic-cards-spacing;	@;"'classic-cards-back-h-top-2-spacing;
+[ o;;"!default;i*;o;	;i*;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"&classic-cards-back-h-top-2-repeat;
+[ o;;"!default;i,;o;	;i,;"classic_cards_position;	@;"classic-cards-position;	@;"&classic-cards-back-h-top-position;
+[ o;;"!default;i-;o;	;i-;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"%classic-cards-back-h-top-spacing;
+[ o;;"!default;i.;o;	;i.;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"$classic-cards-back-h-top-repeat;
+[ o;;"!default;i0;o;	;i0;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-back-v-1-position;
+[ o;;"!default;i1;o;	;i1;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-back-v-1-spacing;
+[ o;;"!default;i2;o;	;i2;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-back-v-1-repeat;
+[ o;;"!default;i4;o;	;i4;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-back-v-2-position;
+[ o;;"!default;i5;o;	;i5;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-back-v-2-spacing;
+[ o;;"!default;i6;o;	;i6;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-back-v-2-repeat;
+[ o;;"!default;i8;o;	;i8;"classic_cards_position;	@;"classic-cards-position;	@;")classic-cards-back-v-left-2-position;
+[ o;;"!default;i9;o;	;i9;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"(classic-cards-back-v-left-2-spacing;
+[ o;;"!default;i:;o;	;i:;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"'classic-cards-back-v-left-2-repeat;
+[ o;;"!default;i<;o;	;i<;"classic_cards_position;	@;"classic-cards-position;	@;"'classic-cards-back-v-left-position;
+[ o;;"!default;i=;o;	;i=;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"&classic-cards-back-v-left-spacing;
+[ o;;"!default;i>;o;	;i>;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"%classic-cards-back-v-left-repeat;
+[ o;;"!default;i@;o;	;i@;"classic_cards_position;	@;"classic-cards-position;	@;"*classic-cards-back-v-right-2-position;
+[ o;;"!default;iA;o;	;iA;"classic_cards_spacing;	@;"classic-cards-spacing;	@;")classic-cards-back-v-right-2-spacing;
+[ o;;"!default;iB;o;	;iB;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"(classic-cards-back-v-right-2-repeat;
+[ o;;"!default;iD;o;	;iD;"classic_cards_position;	@;"classic-cards-position;	@;"(classic-cards-back-v-right-position;
+[ o;;"!default;iE;o;	;iE;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"'classic-cards-back-v-right-spacing;
+[ o;;"!default;iF;o;	;iF;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"&classic-cards-back-v-right-repeat;
+[ o;;"!default;iH;o;	;iH;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-clubs-10-position;
+[ o;;"!default;iI;o;	;iI;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-clubs-10-spacing;
+[ o;;"!default;iJ;o;	;iJ;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-clubs-10-repeat;
+[ o;;"!default;iL;o;	;iL;"classic_cards_position;	@;"classic-cards-position;	@;"#classic-cards-clubs-2-position;
+[ o;;"!default;iM;o;	;iM;"classic_cards_spacing;	@;"classic-cards-spacing;	@;""classic-cards-clubs-2-spacing;
+[ o;;"!default;iN;o;	;iN;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"!classic-cards-clubs-2-repeat;
+[ o;;"!default;iP;o;	;iP;"classic_cards_position;	@;"classic-cards-position;	@;"#classic-cards-clubs-3-position;
+[ o;;"!default;iQ;o;	;iQ;"classic_cards_spacing;	@;"classic-cards-spacing;	@;""classic-cards-clubs-3-spacing;
+[ o;;"!default;iR;o;	;iR;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"!classic-cards-clubs-3-repeat;
+[ o;;"!default;iT;o;	;iT;"classic_cards_position;	@;"classic-cards-position;	@;"#classic-cards-clubs-4-position;
+[ o;;"!default;iU;o;	;iU;"classic_cards_spacing;	@;"classic-cards-spacing;	@;""classic-cards-clubs-4-spacing;
+[ o;;"!default;iV;o;	;iV;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"!classic-cards-clubs-4-repeat;
+[ o;;"!default;iX;o;	;iX;"classic_cards_position;	@;"classic-cards-position;	@;"#classic-cards-clubs-5-position;
+[ o;;"!default;iY;o;	;iY;"classic_cards_spacing;	@;"classic-cards-spacing;	@;""classic-cards-clubs-5-spacing;
+[ o;;"!default;iZ;o;	;iZ;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"!classic-cards-clubs-5-repeat;
+[ o;;"!default;i\;o;	;i\;"classic_cards_position;	@;"classic-cards-position;	@;"#classic-cards-clubs-6-position;
+[ o;;"!default;i];o;	;i];"classic_cards_spacing;	@;"classic-cards-spacing;	@;""classic-cards-clubs-6-spacing;
+[ o;;"!default;i^;o;	;i^;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"!classic-cards-clubs-6-repeat;
+[ o;;"!default;i`;o;	;i`;"classic_cards_position;	@;"classic-cards-position;	@;"#classic-cards-clubs-7-position;
+[ o;;"!default;ia;o;	;ia;"classic_cards_spacing;	@;"classic-cards-spacing;	@;""classic-cards-clubs-7-spacing;
+[ o;;"!default;ib;o;	;ib;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"!classic-cards-clubs-7-repeat;
+[ o;;"!default;id;o;	;id;"classic_cards_position;	@;"classic-cards-position;	@;"#classic-cards-clubs-8-position;
+[ o;;"!default;ie;o;	;ie;"classic_cards_spacing;	@;"classic-cards-spacing;	@;""classic-cards-clubs-8-spacing;
+[ o;;"!default;if;o;	;if;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"!classic-cards-clubs-8-repeat;
+[ o;;"!default;ih;o;	;ih;"classic_cards_position;	@;"classic-cards-position;	@;"#classic-cards-clubs-9-position;
+[ o;;"!default;ii;o;	;ii;"classic_cards_spacing;	@;"classic-cards-spacing;	@;""classic-cards-clubs-9-spacing;
+[ o;;"!default;ij;o;	;ij;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"!classic-cards-clubs-9-repeat;
+[ o;;"!default;il;o;	;il;"classic_cards_position;	@;"classic-cards-position;	@;"#classic-cards-clubs-a-position;
+[ o;;"!default;im;o;	;im;"classic_cards_spacing;	@;"classic-cards-spacing;	@;""classic-cards-clubs-a-spacing;
+[ o;;"!default;in;o;	;in;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"!classic-cards-clubs-a-repeat;
+[ o;;"!default;ip;o;	;ip;"classic_cards_position;	@;"classic-cards-position;	@;"#classic-cards-clubs-j-position;
+[ o;;"!default;iq;o;	;iq;"classic_cards_spacing;	@;"classic-cards-spacing;	@;""classic-cards-clubs-j-spacing;
+[ o;;"!default;ir;o;	;ir;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"!classic-cards-clubs-j-repeat;
+[ o;;"!default;it;o;	;it;"classic_cards_position;	@;"classic-cards-position;	@;"#classic-cards-clubs-k-position;
+[ o;;"!default;iu;o;	;iu;"classic_cards_spacing;	@;"classic-cards-spacing;	@;""classic-cards-clubs-k-spacing;
+[ o;;"!default;iv;o;	;iv;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"!classic-cards-clubs-k-repeat;
+[ o;;"!default;ix;o;	;ix;"classic_cards_position;	@;"classic-cards-position;	@;"#classic-cards-clubs-q-position;
+[ o;;"!default;iy;o;	;iy;"classic_cards_spacing;	@;"classic-cards-spacing;	@;""classic-cards-clubs-q-spacing;
+[ o;;"!default;iz;o;	;iz;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"!classic-cards-clubs-q-repeat;
+[ o;;"!default;i|;o;	;i|;"classic_cards_position;	@;"classic-cards-position;	@;"'classic-cards-diamonds-10-position;
+[ o;;"!default;i};o;	;i};"classic_cards_spacing;	@;"classic-cards-spacing;	@;"&classic-cards-diamonds-10-spacing;
+[ o;;"!default;i~;o;	;i~;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"%classic-cards-diamonds-10-repeat;
+[ o;;"!default;i{;o;	;i{;"classic_cards_position;	@;"classic-cards-position;	@;"&classic-cards-diamonds-2-position;
+[ o;;"!default;i|;o;	;i|;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"%classic-cards-diamonds-2-spacing;
+[ o;;"!default;i};o;	;i};"classic_cards_repeat;	@;"classic-cards-repeat;	@;"$classic-cards-diamonds-2-repeat;
+[ o;;"!default;i;o;	;i;"classic_cards_position;	@;"classic-cards-position;	@;"&classic-cards-diamonds-3-position;
+[ o;;"!default;iÄ;o;	;iÄ;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"%classic-cards-diamonds-3-spacing;
+[ o;;"!default;iÅ;o;	;iÅ;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"$classic-cards-diamonds-3-repeat;
+[ o;;"!default;iÉ;o;	;iÉ;"classic_cards_position;	@;"classic-cards-position;	@;"&classic-cards-diamonds-4-position;
+[ o;;"!default;iÑ;o;	;iÑ;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"%classic-cards-diamonds-4-spacing;
+[ o;;"!default;iÖ;o;	;iÖ;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"$classic-cards-diamonds-4-repeat;
+[ o;;"!default;iá;o;	;iá;"classic_cards_position;	@;"classic-cards-position;	@;"&classic-cards-diamonds-5-position;
+[ o;;"!default;ià;o;	;ià;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"%classic-cards-diamonds-5-spacing;
+[ o;;"!default;iâ;o;	;iâ;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"$classic-cards-diamonds-5-repeat;
+[ o;;"!default;iã;o;	;iã;"classic_cards_position;	@;"classic-cards-position;	@;"&classic-cards-diamonds-6-position;
+[ o;;"!default;iå;o;	;iå;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"%classic-cards-diamonds-6-spacing;
+[ o;;"!default;iç;o;	;iç;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"$classic-cards-diamonds-6-repeat;
+[ o;;"!default;iè;o;	;iè;"classic_cards_position;	@;"classic-cards-position;	@;"&classic-cards-diamonds-7-position;
+[ o;;"!default;iê;o;	;iê;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"%classic-cards-diamonds-7-spacing;
+[ o;;"!default;ië;o;	;ië;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"$classic-cards-diamonds-7-repeat;
+[ o;;"!default;iì;o;	;iì;"classic_cards_position;	@;"classic-cards-position;	@;"&classic-cards-diamonds-8-position;
+[ o;;"!default;iî;o;	;iî;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"%classic-cards-diamonds-8-spacing;
+[ o;;"!default;iï;o;	;iï;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"$classic-cards-diamonds-8-repeat;
+[ o;;"!default;ió;o;	;ió;"classic_cards_position;	@;"classic-cards-position;	@;"&classic-cards-diamonds-9-position;
+[ o;;"!default;iò;o;	;iò;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"%classic-cards-diamonds-9-spacing;
+[ o;;"!default;iô;o;	;iô;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"$classic-cards-diamonds-9-repeat;
+[ o;;"!default;iõ;o;	;iõ;"classic_cards_position;	@;"classic-cards-position;	@;"&classic-cards-diamonds-a-position;
+[ o;;"!default;iú;o;	;iú;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"%classic-cards-diamonds-a-spacing;
+[ o;;"!default;iù;o;	;iù;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"$classic-cards-diamonds-a-repeat;
+[ o;;"!default;iü;o;	;iü;"classic_cards_position;	@;"classic-cards-position;	@;"&classic-cards-diamonds-j-position;
+[ o;;"!default;i†;o;	;i†;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"%classic-cards-diamonds-j-spacing;
+[ o;;"!default;i°;o;	;i°;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"$classic-cards-diamonds-j-repeat;
+[ o;;"!default;i£;o;	;i£;"classic_cards_position;	@;"classic-cards-position;	@;"&classic-cards-diamonds-k-position;
+[ o;;"!default;i§;o;	;i§;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"%classic-cards-diamonds-k-spacing;
+[ o;;"!default;i•;o;	;i•;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"$classic-cards-diamonds-k-repeat;
+[ o;;"!default;iß;o;	;iß;"classic_cards_position;	@;"classic-cards-position;	@;"&classic-cards-diamonds-q-position;
+[ o;;"!default;i®;o;	;i®;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"%classic-cards-diamonds-q-spacing;
+[ o;;"!default;i©;o;	;i©;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"$classic-cards-diamonds-q-repeat;
+[ o;;"!default;i´;o;	;i´;"classic_cards_position;	@;"classic-cards-position;	@;"%classic-cards-hearts-10-position;
+[ o;;"!default;i¨;o;	;i¨;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"$classic-cards-hearts-10-spacing;
+[ o;;"!default;i≠;o;	;i≠;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"#classic-cards-hearts-10-repeat;
+[ o;;"!default;iØ;o;	;iØ;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-hearts-2-position;
+[ o;;"!default;i∞;o;	;i∞;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-hearts-2-spacing;
+[ o;;"!default;i±;o;	;i±;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-hearts-2-repeat;
+[ o;;"!default;i≥;o;	;i≥;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-hearts-3-position;
+[ o;;"!default;i¥;o;	;i¥;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-hearts-3-spacing;
+[ o;;"!default;iµ;o;	;iµ;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-hearts-3-repeat;
+[ o;;"!default;i∑;o;	;i∑;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-hearts-4-position;
+[ o;;"!default;i∏;o;	;i∏;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-hearts-4-spacing;
+[ o;;"!default;iπ;o;	;iπ;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-hearts-4-repeat;
+[ o;;"!default;iª;o;	;iª;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-hearts-6-position;
+[ o;;"!default;iº;o;	;iº;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-hearts-6-spacing;
+[ o;;"!default;iΩ;o;	;iΩ;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-hearts-6-repeat;
+[ o;;"!default;iø;o;	;iø;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-hearts-7-position;
+[ o;;"!default;i¿;o;	;i¿;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-hearts-7-spacing;
+[ o;;"!default;i¡;o;	;i¡;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-hearts-7-repeat;
+[ o;;"!default;i√;o;	;i√;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-hearts-8-position;
+[ o;;"!default;iƒ;o;	;iƒ;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-hearts-8-spacing;
+[ o;;"!default;i≈;o;	;i≈;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-hearts-8-repeat;
+[ o;;"!default;i«;o;	;i«;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-hearts-9-position;
+[ o;;"!default;i»;o;	;i»;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-hearts-9-spacing;
+[ o;;"!default;i…;o;	;i…;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-hearts-9-repeat;
+[ o;;"!default;iÀ;o;	;iÀ;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-hearts-a-position;
+[ o;;"!default;iÃ;o;	;iÃ;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-hearts-a-spacing;
+[ o;;"!default;iÕ;o;	;iÕ;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-hearts-a-repeat;
+[ o;;"!default;iœ;o;	;iœ;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-hearts-j-position;
+[ o;;"!default;i–;o;	;i–;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-hearts-j-spacing;
+[ o;;"!default;i—;o;	;i—;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-hearts-j-repeat;
+[ o;;"!default;i”;o;	;i”;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-hearts-k-position;
+[ o;;"!default;i‘;o;	;i‘;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-hearts-k-spacing;
+[ o;;"!default;i’;o;	;i’;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-hearts-k-repeat;
+[ o;;"!default;i◊;o;	;i◊;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-hearts-q-position;
+[ o;;"!default;iÿ;o;	;iÿ;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-hearts-q-spacing;
+[ o;;"!default;iŸ;o;	;iŸ;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-hearts-q-repeat;
+[ o;;"!default;i€;o;	;i€;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-herats-5-position;
+[ o;;"!default;i‹;o;	;i‹;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-herats-5-spacing;
+[ o;;"!default;i›;o;	;i›;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-herats-5-repeat;
+[ o;;"!default;iﬂ;o;	;iﬂ;"classic_cards_position;	@;"classic-cards-position;	@;"#classic-cards-joker-1-position;
+[ o;;"!default;i‡;o;	;i‡;"classic_cards_spacing;	@;"classic-cards-spacing;	@;""classic-cards-joker-1-spacing;
+[ o;;"!default;i·;o;	;i·;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"!classic-cards-joker-1-repeat;
+[ o;;"!default;i„;o;	;i„;"classic_cards_position;	@;"classic-cards-position;	@;"#classic-cards-joker-2-position;
+[ o;;"!default;i‰;o;	;i‰;"classic_cards_spacing;	@;"classic-cards-spacing;	@;""classic-cards-joker-2-spacing;
+[ o;;"!default;iÂ;o;	;iÂ;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"!classic-cards-joker-2-repeat;
+[ o;;"!default;iÁ;o;	;iÁ;"classic_cards_position;	@;"classic-cards-position;	@;"%classic-cards-spades-10-position;
+[ o;;"!default;iË;o;	;iË;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"$classic-cards-spades-10-spacing;
+[ o;;"!default;iÈ;o;	;iÈ;"classic_cards_repeat;	@;"classic-cards-repeat;	@;"#classic-cards-spades-10-repeat;
+[ o;;"!default;iÎ;o;	;iÎ;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-spades-2-position;
+[ o;;"!default;iÏ;o;	;iÏ;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-spades-2-spacing;
+[ o;;"!default;iÌ;o;	;iÌ;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-spades-2-repeat;
+[ o;;"!default;iÔ;o;	;iÔ;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-spades-3-position;
+[ o;;"!default;i;o;	;i;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-spades-3-spacing;
+[ o;;"!default;iÒ;o;	;iÒ;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-spades-3-repeat;
+[ o;;"!default;iÛ;o;	;iÛ;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-spades-4-position;
+[ o;;"!default;iÙ;o;	;iÙ;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-spades-4-spacing;
+[ o;;"!default;iı;o;	;iı;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-spades-4-repeat;
+[ o;;"!default;i˜;o;	;i˜;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-spades-5-position;
+[ o;;"!default;i¯;o;	;i¯;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-spades-5-spacing;
+[ o;;"!default;i˘;o;	;i˘;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-spades-5-repeat;
+[ o;;"!default;i˚;o;	;i˚;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-spades-6-position;
+[ o;;"!default;i¸;o;	;i¸;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-spades-6-spacing;
+[ o;;"!default;i˝;o;	;i˝;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-spades-6-repeat;
+[ o;;"!default;iˇ;o;	;iˇ;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-spades-7-position;
+[ o;;"!default;i ;o;	;i ;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-spades-7-spacing;
+[ o;;"!default;i;o;	;i;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-spades-7-repeat;
+[ o;;"!default;i;o;	;i;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-spades-8-position;
+[ o;;"!default;i;o;	;i;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-spades-8-spacing;
+[ o;;"!default;i;o;	;i;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-spades-8-repeat;
+[ o;;"!default;i;o;	;i;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-spades-9-position;
+[ o;;"!default;i;o;	;i;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-spades-9-spacing;
+[ o;;"!default;i	;o;	;i	;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-spades-9-repeat;
+[ o;;"!default;i;o;	;i;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-spades-a-position;
+[ o;;"!default;i;o;	;i;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-spades-a-spacing;
+[ o;;"!default;i;o;	;i;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-spades-a-repeat;
+[ o;;"!default;i;o;	;i;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-spades-j-position;
+[ o;;"!default;i;o;	;i;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-spades-j-spacing;
+[ o;;"!default;i;o;	;i;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-spades-j-repeat;
+[ o;;"!default;i;o;	;i;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-spades-k-position;
+[ o;;"!default;i;o;	;i;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-spades-k-spacing;
+[ o;;"!default;i;o;	;i;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-spades-k-repeat;
+[ o;;"!default;i;o;	;i;"classic_cards_position;	@;"classic-cards-position;	@;"$classic-cards-spades-q-position;
+[ o;;"!default;i;o;	;i;"classic_cards_spacing;	@;"classic-cards-spacing;	@;"#classic-cards-spades-q-spacing;
+[ o;;"!default;i;o;	;i;"classic_cards_repeat;	@;"classic-cards-repeat;	@;""classic-cards-spades-q-repeat;
+[ o;;0;i(;o:Sass::Script::Funcall;i(;	@;"sprite-map:@splat0:
+@args[o;	;i;	@;;;"classic-cards/*.png:@keywords{»""classic_cards_clubs_k_spacingo;	;i{;""classic_cards_clubs_k_spacing;	@;""classic-cards-clubs-k-spacing"&classic_cards_diamonds_7_positiono;	;iö;"&classic_cards_diamonds_7_position;	@;"&classic-cards-diamonds-7-position"#classic_cards_spades_q_spacingo;	;i#;"#classic_cards_spades_q_spacing;	@;"#classic-cards-spades-q-spacing"#classic_cards_clubs_4_positiono;	;iZ;"#classic_cards_clubs_4_position;	@;"#classic-cards-clubs-4-position""classic_cards_hearts_8_repeato;	;i–;""classic_cards_hearts_8_repeat;	@;""classic-cards-hearts-8-repeat"(classic_cards_back_h_bottom_spacingo;	;i+;"(classic_cards_back_h_bottom_spacing;	@;"(classic-cards-back-h-bottom-spacing"!classic_cards_clubs_k_repeato;	;i|;"!classic_cards_clubs_k_repeat;	@;"!classic-cards-clubs-k-repeat"$classic_cards_hearts_9_positiono;	;i“;"$classic_cards_hearts_9_position;	@;"$classic-cards-hearts-9-position"%classic_cards_back_v_left_repeato;	;iD;"%classic_cards_back_v_left_repeat;	@;"%classic-cards-back-v-left-repeat""classic_cards_clubs_a_spacingo;	;is;""classic_cards_clubs_a_spacing;	@;""classic-cards-clubs-a-spacing"$classic_cards_hearts_3_positiono;	;iæ;"$classic_cards_hearts_3_position;	@;"$classic-cards-hearts-3-position""classic_cards_joker_2_spacingo;	;iÔ;""classic_cards_joker_2_spacing;	@;""classic-cards-joker-2-spacing""classic_cards_hearts_3_repeato;	;i¿;""classic_cards_hearts_3_repeat;	@;""classic-cards-hearts-3-repeat""classic_cards_clubs_2_spacingo;	;iS;""classic_cards_clubs_2_spacing;	@;""classic-cards-clubs-2-spacing"%classic_cards_diamonds_4_spacingo;	;iè;"%classic_cards_diamonds_4_spacing;	@;"%classic-cards-diamonds-4-spacing"$classic_cards_back_v_2_positiono;	;i:;"$classic_cards_back_v_2_position;	@;"$classic-cards-back-v-2-position"#classic_cards_clubs_3_positiono;	;iV;"#classic_cards_clubs_3_position;	@;"#classic-cards-clubs-3-position""classic_cards_clubs_q_spacingo;	;i;""classic_cards_clubs_q_spacing;	@;""classic-cards-clubs-q-spacing"$classic_cards_spades_q_positiono;	;i";"$classic_cards_spades_q_position;	@;"$classic-cards-spades-q-position""classic_cards_spades_q_repeato;	;i$;""classic_cards_spades_q_repeat;	@;""classic-cards-spades-q-repeat"#classic_cards_back_v_2_spacingo;	;i;;"#classic_cards_back_v_2_spacing;	@;"#classic-cards-back-v-2-spacing"#classic_cards_hearts_3_spacingo;	;iø;"#classic_cards_hearts_3_spacing;	@;"#classic-cards-hearts-3-spacing"'classic_cards_back_h_bottom_repeato;	;i,;"'classic_cards_back_h_bottom_repeat;	@;"'classic-cards-back-h-bottom-repeat""classic_cards_clubs_6_spacingo;	;ic;""classic_cards_clubs_6_spacing;	@;""classic-cards-clubs-6-spacing"!classic_cards_clubs_4_repeato;	;i\;"!classic_cards_clubs_4_repeat;	@;"!classic-cards-clubs-4-repeat"cleanupo;	;i';"classic_cards_clean_up;	@;"classic-cards-clean-up"$classic_cards_spades_9_positiono;	;i;"$classic_cards_spades_9_position;	@;"$classic-cards-spades-9-position"$classic_cards_back_h_top_repeato;	;i4;"$classic_cards_back_h_top_repeat;	@;"$classic-cards-back-h-top-repeat"$classic_cards_diamonds_2_repeato;	;ià;"$classic_cards_diamonds_2_repeat;	@;"$classic-cards-diamonds-2-repeat"#classic_cards_clubs_k_positiono;	;iz;"#classic_cards_clubs_k_position;	@;"#classic-cards-clubs-k-position"#classic_cards_clubs_a_positiono;	;ir;"#classic_cards_clubs_a_position;	@;"#classic-cards-clubs-a-position"#classic_cards_hearts_k_spacingo;	;iﬂ;"#classic_cards_hearts_k_spacing;	@;"#classic-cards-hearts-k-spacing"$classic_cards_hearts_q_positiono;	;i‚;"$classic_cards_hearts_q_position;	@;"$classic-cards-hearts-q-position"$classic_cards_back_h_1_positiono;	;i;"$classic_cards_back_h_1_position;	@;"$classic-cards-back-h-1-position"#classic_cards_spades_a_spacingo;	;i;"#classic_cards_spades_a_spacing;	@;"#classic-cards-spades-a-spacing"'classic_cards_back_v_left_2_repeato;	;i@;"'classic_cards_back_v_left_2_repeat;	@;"'classic-cards-back-v-left-2-repeat"%classic_cards_diamonds_8_spacingo;	;iü;"%classic_cards_diamonds_8_spacing;	@;"%classic-cards-diamonds-8-spacing"&classic_cards_diamonds_q_positiono;	;i≤;"&classic_cards_diamonds_q_position;	@;"&classic-cards-diamonds-q-position"&classic_cards_diamonds_6_positiono;	;iñ;"&classic_cards_diamonds_6_position;	@;"&classic-cards-diamonds-6-position"#classic_cards_clubs_q_positiono;	;i~;"#classic_cards_clubs_q_position;	@;"#classic-cards-clubs-q-position""classic_cards_spades_a_repeato;	;i;""classic_cards_spades_a_repeat;	@;""classic-cards-spades-a-repeat"&classic_cards_diamonds_5_positiono;	;ií;"&classic_cards_diamonds_5_position;	@;"&classic-cards-diamonds-5-position"'classic_cards_back_v_left_positiono;	;iB;"'classic_cards_back_v_left_position;	@;"'classic-cards-back-v-left-position"$classic_cards_hearts_4_positiono;	;i¬;"$classic_cards_hearts_4_position;	@;"$classic-cards-hearts-4-position""classic_cards_spades_3_repeato;	;i¸;""classic_cards_spades_3_repeat;	@;""classic-cards-spades-3-repeat"$classic_cards_diamonds_9_repeato;	;i§;"$classic_cards_diamonds_9_repeat;	@;"$classic-cards-diamonds-9-repeat"$classic_cards_hearts_2_positiono;	;i∫;"$classic_cards_hearts_2_position;	@;"$classic-cards-hearts-2-position"!classic_cards_clubs_7_repeato;	;ih;"!classic_cards_clubs_7_repeat;	@;"!classic-cards-clubs-7-repeat"!classic_cards_joker_2_repeato;	;i;"!classic_cards_joker_2_repeat;	@;"!classic-cards-joker-2-repeat"$classic_cards_spades_8_positiono;	;i;"$classic_cards_spades_8_position;	@;"$classic-cards-spades-8-position""classic_cards_spades_7_repeato;	;i;""classic_cards_spades_7_repeat;	@;""classic-cards-spades-7-repeat"%classic_cards_diamonds_9_spacingo;	;i£;"%classic_cards_diamonds_9_spacing;	@;"%classic-cards-diamonds-9-spacing"$classic_cards_spades_10_spacingo;	;iÛ;"$classic_cards_spades_10_spacing;	@;"$classic-cards-spades-10-spacing"#classic_cards_hearts_4_spacingo;	;i√;"#classic_cards_hearts_4_spacing;	@;"#classic-cards-hearts-4-spacing"#classic_cards_hearts_6_spacingo;	;i«;"#classic_cards_hearts_6_spacing;	@;"#classic-cards-hearts-6-spacing"#classic_cards_hearts_q_spacingo;	;i„;"#classic_cards_hearts_q_spacing;	@;"#classic-cards-hearts-q-spacing"#classic_cards_clubs_7_positiono;	;if;"#classic_cards_clubs_7_position;	@;"#classic-cards-clubs-7-position"&classic_cards_diamonds_j_positiono;	;i™;"&classic_cards_diamonds_j_position;	@;"&classic-cards-diamonds-j-position""classic_cards_hearts_k_repeato;	;i‡;""classic_cards_hearts_k_repeat;	@;""classic-cards-hearts-k-repeat"$classic_cards_hearts_10_spacingo;	;i∑;"$classic_cards_hearts_10_spacing;	@;"$classic-cards-hearts-10-spacing"!classic_cards_clubs_9_repeato;	;ip;"!classic_cards_clubs_9_repeat;	@;"!classic-cards-clubs-9-repeat""classic_cards_clubs_3_spacingo;	;iW;""classic_cards_clubs_3_spacing;	@;""classic-cards-clubs-3-spacing""classic_cards_joker_1_spacingo;	;iÎ;""classic_cards_joker_1_spacing;	@;""classic-cards-joker-1-spacing""classic_cards_spades_9_repeato;	;i;""classic_cards_spades_9_repeat;	@;""classic-cards-spades-9-repeat"*classic_cards_back_v_right_2_positiono;	;iF;"*classic_cards_back_v_right_2_position;	@;"*classic-cards-back-v-right-2-position"#classic_cards_hearts_7_spacingo;	;iÀ;"#classic_cards_hearts_7_spacing;	@;"#classic-cards-hearts-7-spacing""classic_cards_spades_6_repeato;	;i;""classic_cards_spades_6_repeat;	@;""classic-cards-spades-6-repeat"#classic_cards_back_h_1_spacingo;	;i;"#classic_cards_back_h_1_spacing;	@;"#classic-cards-back-h-1-spacing"$classic_cards_back_h_2_positiono;	;i";"$classic_cards_back_h_2_position;	@;"$classic-cards-back-h-2-position"#classic_cards_spades_7_spacingo;	;i;"#classic_cards_spades_7_spacing;	@;"#classic-cards-spades-7-spacing"$classic_cards_diamonds_5_repeato;	;iî;"$classic_cards_diamonds_5_repeat;	@;"$classic-cards-diamonds-5-repeat"$classic_cards_spades_j_positiono;	;i;"$classic_cards_spades_j_position;	@;"$classic-cards-spades-j-position"#classic_cards_spades_8_spacingo;	;i;"#classic_cards_spades_8_spacing;	@;"#classic-cards-spades-8-spacing""classic_cards_back_v_2_repeato;	;i<;""classic_cards_back_v_2_repeat;	@;""classic-cards-back-v-2-repeat"#classic_cards_clubs_8_positiono;	;ij;"#classic_cards_clubs_8_position;	@;"#classic-cards-clubs-8-position"'classic_cards_diamonds_10_positiono;	;iÇ;"'classic_cards_diamonds_10_position;	@;"'classic-cards-diamonds-10-position"$classic_cards_spades_7_positiono;	;i
+;"$classic_cards_spades_7_position;	@;"$classic-cards-spades-7-position"$classic_cards_diamonds_8_repeato;	;i†;"$classic_cards_diamonds_8_repeat;	@;"$classic-cards-diamonds-8-repeat"#classic_cards_clubs_9_positiono;	;in;"#classic_cards_clubs_9_position;	@;"#classic-cards-clubs-9-position"%classic_cards_diamonds_j_spacingo;	;i´;"%classic_cards_diamonds_j_spacing;	@;"%classic-cards-diamonds-j-spacing"+classic_cards_back_h_bottom_2_positiono;	;i&;"+classic_cards_back_h_bottom_2_position;	@;"+classic-cards-back-h-bottom-2-position"#classic_cards_spades_3_spacingo;	;i˚;"#classic_cards_spades_3_spacing;	@;"#classic-cards-spades-3-spacing"#classic_cards_spades_9_spacingo;	;i;"#classic_cards_spades_9_spacing;	@;"#classic-cards-spades-9-spacing"#classic_cards_joker_1_positiono;	;iÍ;"#classic_cards_joker_1_position;	@;"#classic-cards-joker-1-position"#classic_cards_spades_2_spacingo;	;i˜;"#classic_cards_spades_2_spacing;	@;"#classic-cards-spades-2-spacing"layouto;	;i&;"classic_cards_layout;	@;"classic-cards-layout")classic_cards_back_v_right_2_spacingo;	;iG;")classic_cards_back_v_right_2_spacing;	@;")classic-cards-back-v-right-2-spacing"'classic_cards_back_h_top_2_spacingo;	;i/;"'classic_cards_back_h_top_2_spacing;	@;"'classic-cards-back-h-top-2-spacing"*classic_cards_back_h_bottom_2_spacingo;	;i';"*classic_cards_back_h_bottom_2_spacing;	@;"*classic-cards-back-h-bottom-2-spacing"&classic_cards_diamonds_8_positiono;	;iû;"&classic_cards_diamonds_8_position;	@;"&classic-cards-diamonds-8-position"$classic_cards_diamonds_4_repeato;	;iê;"$classic_cards_diamonds_4_repeat;	@;"$classic-cards-diamonds-4-repeat"&classic_cards_diamonds_k_positiono;	;iÆ;"&classic_cards_diamonds_k_position;	@;"&classic-cards-diamonds-k-position"$classic_cards_hearts_7_positiono;	;i ;"$classic_cards_hearts_7_position;	@;"$classic-cards-hearts-7-position"#classic_cards_spades_5_spacingo;	;i;"#classic_cards_spades_5_spacing;	@;"#classic-cards-spades-5-spacing"#classic_cards_hearts_10_repeato;	;i∏;"#classic_cards_hearts_10_repeat;	@;"#classic-cards-hearts-10-repeat"#classic_cards_spades_6_spacingo;	;i;"#classic_cards_spades_6_spacing;	@;"#classic-cards-spades-6-spacing""classic_cards_hearts_6_repeato;	;i»;""classic_cards_hearts_6_repeat;	@;""classic-cards-hearts-6-repeat"#classic_cards_clubs_5_positiono;	;i^;"#classic_cards_clubs_5_position;	@;"#classic-cards-clubs-5-position"$classic_cards_back_v_1_positiono;	;i6;"$classic_cards_back_v_1_position;	@;"$classic-cards-back-v-1-position"(classic_cards_back_h_top_2_positiono;	;i.;"(classic_cards_back_h_top_2_position;	@;"(classic-cards-back-h-top-2-position"&classic_cards_diamonds_3_positiono;	;iä;"&classic_cards_diamonds_3_position;	@;"&classic-cards-diamonds-3-position"$classic_cards_diamonds_j_repeato;	;i¨;"$classic_cards_diamonds_j_repeat;	@;"$classic-cards-diamonds-j-repeat"!classic_cards_clubs_5_repeato;	;i`;"!classic_cards_clubs_5_repeat;	@;"!classic-cards-clubs-5-repeat"&classic_cards_diamonds_10_spacingo;	;iÉ;"&classic_cards_diamonds_10_spacing;	@;"&classic-cards-diamonds-10-spacing"!classic_cards_clubs_j_repeato;	;ix;"!classic_cards_clubs_j_repeat;	@;"!classic-cards-clubs-j-repeat"(classic_cards_back_v_left_2_spacingo;	;i?;"(classic_cards_back_v_left_2_spacing;	@;"(classic-cards-back-v-left-2-spacing"$classic_cards_hearts_8_positiono;	;iŒ;"$classic_cards_hearts_8_position;	@;"$classic-cards-hearts-8-position"!classic_cards_joker_1_repeato;	;iÏ;"!classic_cards_joker_1_repeat;	@;"!classic-cards-joker-1-repeat"#classic_cards_back_v_1_spacingo;	;i7;"#classic_cards_back_v_1_spacing;	@;"#classic-cards-back-v-1-spacing""classic_cards_spades_5_repeato;	;i;""classic_cards_spades_5_repeat;	@;""classic-cards-spades-5-repeat""classic_cards_spades_2_repeato;	;i¯;""classic_cards_spades_2_repeat;	@;""classic-cards-spades-2-repeat"#classic_cards_spades_k_spacingo;	;i;"#classic_cards_spades_k_spacing;	@;"#classic-cards-spades-k-spacing")classic_cards_back_h_bottom_2_repeato;	;i(;")classic_cards_back_h_bottom_2_repeat;	@;")classic-cards-back-h-bottom-2-repeat"#classic_cards_hearts_8_spacingo;	;iœ;"#classic_cards_hearts_8_spacing;	@;"#classic-cards-hearts-8-spacing"%classic_cards_diamonds_6_spacingo;	;ió;"%classic_cards_diamonds_6_spacing;	@;"%classic-cards-diamonds-6-spacing"'classic_cards_back_v_right_spacingo;	;iK;"'classic_cards_back_v_right_spacing;	@;"'classic-cards-back-v-right-spacing"#classic_cards_spades_10_repeato;	;iÙ;"#classic_cards_spades_10_repeat;	@;"#classic-cards-spades-10-repeat""classic_cards_clubs_10_repeato;	;iP;""classic_cards_clubs_10_repeat;	@;""classic-cards-clubs-10-repeat"%classic_cards_diamonds_a_spacingo;	;iß;"%classic_cards_diamonds_a_spacing;	@;"%classic-cards-diamonds-a-spacing""classic_cards_spades_4_repeato;	;i ;""classic_cards_spades_4_repeat;	@;""classic-cards-spades-4-repeat"!classic_cards_clubs_6_repeato;	;id;"!classic_cards_clubs_6_repeat;	@;"!classic-cards-clubs-6-repeat"&classic_cards_diamonds_9_positiono;	;i¢;"&classic_cards_diamonds_9_position;	@;"&classic-cards-diamonds-9-position"$classic_cards_spades_2_positiono;	;iˆ;"$classic_cards_spades_2_position;	@;"$classic-cards-spades-2-position""classic_cards_hearts_9_repeato;	;i‘;""classic_cards_hearts_9_repeat;	@;""classic-cards-hearts-9-repeat""classic_cards_spades_k_repeato;	;i ;""classic_cards_spades_k_repeat;	@;""classic-cards-spades-k-repeat"!classic_cards_clubs_3_repeato;	;iX;"!classic_cards_clubs_3_repeat;	@;"!classic-cards-clubs-3-repeat"$classic_cards_diamonds_7_repeato;	;iú;"$classic_cards_diamonds_7_repeat;	@;"$classic-cards-diamonds-7-repeat""classic_cards_clubs_5_spacingo;	;i_;""classic_cards_clubs_5_spacing;	@;""classic-cards-clubs-5-spacing""classic_cards_herats_5_repeato;	;iË;""classic_cards_herats_5_repeat;	@;""classic-cards-herats-5-repeat"#classic_cards_joker_2_positiono;	;iÓ;"#classic_cards_joker_2_position;	@;"#classic-cards-joker-2-position""classic_cards_hearts_q_repeato;	;i‰;""classic_cards_hearts_q_repeat;	@;""classic-cards-hearts-q-repeat"%classic_cards_spades_10_positiono;	;iÚ;"%classic_cards_spades_10_position;	@;"%classic-cards-spades-10-position"%classic_cards_diamonds_7_spacingo;	;iõ;"%classic_cards_diamonds_7_spacing;	@;"%classic-cards-diamonds-7-spacing"$classic_cards_spades_4_positiono;	;i˛;"$classic_cards_spades_4_position;	@;"$classic-cards-spades-4-position")classic_cards_back_h_bottom_positiono;	;i*;")classic_cards_back_h_bottom_position;	@;")classic-cards-back-h-bottom-position"$classic_cards_herats_5_positiono;	;iÊ;"$classic_cards_herats_5_position;	@;"$classic-cards-herats-5-position"$classic_cards_diamonds_a_repeato;	;i®;"$classic_cards_diamonds_a_repeat;	@;"$classic-cards-diamonds-a-repeat"&classic_cards_back_v_right_repeato;	;iL;"&classic_cards_back_v_right_repeat;	@;"&classic-cards-back-v-right-repeat""classic_cards_clubs_j_spacingo;	;iw;""classic_cards_clubs_j_spacing;	@;""classic-cards-clubs-j-spacing")classic_cards_back_v_left_2_positiono;	;i>;")classic_cards_back_v_left_2_position;	@;")classic-cards-back-v-left-2-position"$classic_cards_diamonds_q_repeato;	;i¥;"$classic_cards_diamonds_q_repeat;	@;"$classic-cards-diamonds-q-repeat""classic_cards_clubs_8_spacingo;	;ik;""classic_cards_clubs_8_spacing;	@;""classic-cards-clubs-8-spacing"(classic_cards_back_v_right_2_repeato;	;iH;"(classic_cards_back_v_right_2_repeat;	@;"(classic-cards-back-v-right-2-repeat"#classic_cards_clubs_10_spacingo;	;iO;"#classic_cards_clubs_10_spacing;	@;"#classic-cards-clubs-10-spacing"$classic_cards_spades_3_positiono;	;i˙;"$classic_cards_spades_3_position;	@;"$classic-cards-spades-3-position"!classic_cards_clubs_q_repeato;	;iÄ;"!classic_cards_clubs_q_repeat;	@;"!classic-cards-clubs-q-repeat"#classic_cards_hearts_a_spacingo;	;i◊;"#classic_cards_hearts_a_spacing;	@;"#classic-cards-hearts-a-spacing""classic_cards_clubs_7_spacingo;	;ig;""classic_cards_clubs_7_spacing;	@;""classic-cards-clubs-7-spacing"$classic_cards_hearts_j_positiono;	;i⁄;"$classic_cards_hearts_j_position;	@;"$classic-cards-hearts-j-position""classic_cards_clubs_9_spacingo;	;io;""classic_cards_clubs_9_spacing;	@;""classic-cards-clubs-9-spacing"!classic_cards_clubs_a_repeato;	;it;"!classic_cards_clubs_a_repeat;	@;"!classic-cards-clubs-a-repeat"#classic_cards_clubs_6_positiono;	;ib;"#classic_cards_clubs_6_position;	@;"#classic-cards-clubs-6-position""classic_cards_clubs_4_spacingo;	;i[;""classic_cards_clubs_4_spacing;	@;""classic-cards-clubs-4-spacing""classic_cards_back_v_1_repeato;	;i8;""classic_cards_back_v_1_repeat;	@;""classic-cards-back-v-1-repeat"!classic_cards_clubs_2_repeato;	;iT;"!classic_cards_clubs_2_repeat;	@;"!classic-cards-clubs-2-repeat""classic_cards_hearts_j_repeato;	;i‹;""classic_cards_hearts_j_repeat;	@;""classic-cards-hearts-j-repeat"#classic_cards_herats_5_spacingo;	;iÁ;"#classic_cards_herats_5_spacing;	@;"#classic-cards-herats-5-spacing"$classic_cards_diamonds_6_repeato;	;iò;"$classic_cards_diamonds_6_repeat;	@;"$classic-cards-diamonds-6-repeat"$classic_cards_clubs_10_positiono;	;iN;"$classic_cards_clubs_10_position;	@;"$classic-cards-clubs-10-position"&classic_cards_back_h_top_positiono;	;i2;"&classic_cards_back_h_top_position;	@;"&classic-cards-back-h-top-position""classic_cards_hearts_4_repeato;	;iƒ;""classic_cards_hearts_4_repeat;	@;""classic-cards-hearts-4-repeat""classic_cards_hearts_a_repeato;	;iÿ;""classic_cards_hearts_a_repeat;	@;""classic-cards-hearts-a-repeat""classic_cards_hearts_7_repeato;	;iÃ;""classic_cards_hearts_7_repeat;	@;""classic-cards-hearts-7-repeat"%classic_cards_diamonds_q_spacingo;	;i≥;"%classic_cards_diamonds_q_spacing;	@;"%classic-cards-diamonds-q-spacing"$classic_cards_diamonds_k_repeato;	;i∞;"$classic_cards_diamonds_k_repeat;	@;"$classic-cards-diamonds-k-repeat"%classic_cards_diamonds_k_spacingo;	;iØ;"%classic_cards_diamonds_k_spacing;	@;"%classic-cards-diamonds-k-spacing"#classic_cards_spades_j_spacingo;	;i;"#classic_cards_spades_j_spacing;	@;"#classic-cards-spades-j-spacing"#classic_cards_clubs_j_positiono;	;iv;"#classic_cards_clubs_j_position;	@;"#classic-cards-clubs-j-position"%classic_cards_diamonds_10_repeato;	;iÑ;"%classic_cards_diamonds_10_repeat;	@;"%classic-cards-diamonds-10-repeat"$classic_cards_spades_5_positiono;	;i;"$classic_cards_spades_5_position;	@;"$classic-cards-spades-5-position"$classic_cards_spades_k_positiono;	;i;"$classic_cards_spades_k_position;	@;"$classic-cards-spades-k-position""classic_cards_back_h_2_repeato;	;i$;""classic_cards_back_h_2_repeat;	@;""classic-cards-back-h-2-repeat"$classic_cards_diamonds_3_repeato;	;iå;"$classic_cards_diamonds_3_repeat;	@;"$classic-cards-diamonds-3-repeat"#classic_cards_spades_4_spacingo;	;iˇ;"#classic_cards_spades_4_spacing;	@;"#classic-cards-spades-4-spacing"&classic_cards_diamonds_a_positiono;	;i¶;"&classic_cards_diamonds_a_position;	@;"&classic-cards-diamonds-a-position"&classic_cards_back_h_top_2_repeato;	;i0;"&classic_cards_back_h_top_2_repeat;	@;"&classic-cards-back-h-top-2-repeat"$classic_cards_spades_a_positiono;	;i;"$classic_cards_spades_a_position;	@;"$classic-cards-spades-a-position"%classic_cards_diamonds_3_spacingo;	;iã;"%classic_cards_diamonds_3_spacing;	@;"%classic-cards-diamonds-3-spacing"%classic_cards_hearts_10_positiono;	;i∂;"%classic_cards_hearts_10_position;	@;"%classic-cards-hearts-10-position"#classic_cards_clubs_2_positiono;	;iR;"#classic_cards_clubs_2_position;	@;"#classic-cards-clubs-2-position"$classic_cards_hearts_a_positiono;	;i÷;"$classic_cards_hearts_a_position;	@;"$classic-cards-hearts-a-position"&classic_cards_diamonds_4_positiono;	;ié;"&classic_cards_diamonds_4_position;	@;"&classic-cards-diamonds-4-position"%classic_cards_diamonds_2_spacingo;	;iá;"%classic_cards_diamonds_2_spacing;	@;"%classic-cards-diamonds-2-spacing"#classic_cards_hearts_2_spacingo;	;iª;"#classic_cards_hearts_2_spacing;	@;"#classic-cards-hearts-2-spacing"&classic_cards_diamonds_2_positiono;	;iÜ;"&classic_cards_diamonds_2_position;	@;"&classic-cards-diamonds-2-position"$classic_cards_hearts_k_positiono;	;iﬁ;"$classic_cards_hearts_k_position;	@;"$classic-cards-hearts-k-position"$classic_cards_hearts_6_positiono;	;i∆;"$classic_cards_hearts_6_position;	@;"$classic-cards-hearts-6-position"#classic_cards_back_h_2_spacingo;	;i#;"#classic_cards_back_h_2_spacing;	@;"#classic-cards-back-h-2-spacing"!classic_cards_clubs_8_repeato;	;il;"!classic_cards_clubs_8_repeat;	@;"!classic-cards-clubs-8-repeat""classic_cards_spades_j_repeato;	;i;""classic_cards_spades_j_repeat;	@;""classic-cards-spades-j-repeat"#classic_cards_hearts_9_spacingo;	;i”;"#classic_cards_hearts_9_spacing;	@;"#classic-cards-hearts-9-spacing""classic_cards_spades_8_repeato;	;i;""classic_cards_spades_8_repeat;	@;""classic-cards-spades-8-repeat"%classic_cards_diamonds_5_spacingo;	;iì;"%classic_cards_diamonds_5_spacing;	@;"%classic-cards-diamonds-5-spacing"%classic_cards_back_h_top_spacingo;	;i3;"%classic_cards_back_h_top_spacing;	@;"%classic-cards-back-h-top-spacing"(classic_cards_back_v_right_positiono;	;iJ;"(classic_cards_back_v_right_position;	@;"(classic-cards-back-v-right-position""classic_cards_hearts_2_repeato;	;iº;""classic_cards_hearts_2_repeat;	@;""classic-cards-hearts-2-repeat"&classic_cards_back_v_left_spacingo;	;iC;"&classic_cards_back_v_left_spacing;	@;"&classic-cards-back-v-left-spacing"$classic_cards_spades_6_positiono;	;i;"$classic_cards_spades_6_position;	@;"$classic-cards-spades-6-position"#classic_cards_hearts_j_spacingo;	;i€;"#classic_cards_hearts_j_spacing;	@;"#classic-cards-hearts-j-spacing""classic_cards_back_h_1_repeato;	;i ;""classic_cards_back_h_1_repeat;	@;""classic-cards-back-h-1-repeat;	@;"classic-cards-sprites;
+[ o;
+;i+;	@;
+[ ;;;["e/* All sprites should extend this class
+ * The classic-cards-sprite mixin will do so for you. */u:Sass::Tree::IfNode[o:Sass::Script::Variable	:
+@linei-:@underscored_name"classic_cards_inline:@options{ :
+@name"classic-cards-inlineu:Sass::Tree::IfNodeÙ[00[o:Sass::Tree::RuleNode:
+@linei2:@has_childrenT:@options{ :
+@tabsi :@children[o:Sass::Tree::PropNode:@prop_syntax:new;i3;@:
+@name["background;	i ;
+[ :@valueo:Sass::Script::List	;i3;@:@separator:
+space;[o:Sass::Script::Variable	;i3:@underscored_name"classic_cards_sprites;@;"classic-cards-spriteso:Sass::Script::String	;i3;@:
+@type:identifier;"no-repeat:
+@rule[o;	;i2;"$classic_cards_sprite_base_class;@;"$classic-cards-sprite-base-class[o:Sass::Tree::RuleNode;i.:@has_childrenT;@:
+@tabsi :@children[o:Sass::Tree::PropNode:@prop_syntax:new;i/;@;	["background-image;i ;[ :@valueo:Sass::Script::Funcall;i/;@;	"inline-sprite:@splat0:
+@args[o; 	;i/;"classic_cards_sprites;@;	"classic-cards-sprites:@keywords{ :
+@rule[o; 	;i.;"$classic_cards_sprite_base_class;@;	"$classic-cards-sprite-base-classo;
+;i6;	@;
+[ ;;;["L/*sass functions to return the dimensions of a sprite image as units */o:Sass::Tree::FunctionNode;i8;T;	@;"classic-cards-sprite-width;!0;
+[o;;0;i9;o; ;i9;	@;"sprite_file;!0;"[o;	;i9;"classic_cards_sprites;	@;"classic-cards-spriteso;	;i9;"	name;	@;"	name;#{ ;	@;"	file;
+[ o:Sass::Tree::ReturnNode	;i:;o; ;i:;	@;"image-width;!0;"[o;	;i:;"	file;	@;"	file;#{ ;	@;
+[ ;"[[o;;"	name;	@;"	name0o;%;i=;T;	@;" classic-cards-sprite-height;!0;
+[o;;0;i>;o; ;i>;	@;"sprite_file;!0;"[o;	;i>;"classic_cards_sprites;	@;"classic-cards-spriteso;	;i>;"	name;	@;"	name;#{ ;	@;"	file;
+[ o;&	;i?;o; ;i?;	@;"image-height;!0;"[o;	;i?;"	file;	@;"	file;#{ ;	@;
+[ ;"[[o;;"	name;	@;"	name0o;
+;iC;	@;
+[ ;;;["c/* Use this to set the dimensions of an element
+ * based on the size of the original image. */o:Sass::Tree::MixinDefNode;iE;T;	@;"$classic-cards-sprite-dimensions;!0;
+[o:Sass::Tree::MixinNode;iG;	@;"sprite-dimensions;!0;
+[ ;"[o;	;iF;"classic_cards_sprites;	@;"classic-cards-spriteso;	;iF;"	name;	@;"	name;#{ ;"[[o;;"	name;	@;"	name0o;
+;iI;	@;
+[ ;;;[">/* Move the background position to display the sprite. */o;';iJ;T;	@;""classic-cards-sprite-position;!0;
+[o;(;iL;	@;"sprite-background-position;!0;
+[ ;"[	o;	;iK;"classic_cards_sprites;	@;"classic-cards-spriteso;	;iK;"	name;	@;"	nameo;	;iK;"offset_x;	@;"offset-xo;	;iK;"offset_y;	@;"offset-y;#{ ;"[[o;;"	name;	@;"	name0[o;;"offset_x;	@;"offset-xo;;iJ;	@;@';"0;[ ;i [o;;"offset_y;	@;"offset-yo;;iJ;	@;@';"0;[ ;i o;
+;iN;	@;
+[ ;;;["û/* Extends the sprite base class and set the background position for the desired sprite.
+ * It will also apply the image dimensions if $dimensions is true. */o;';iP;T;	@;"classic-cards-sprite;!0;
+[o:Sass::Tree::ExtendNode
+:@selector[o;	;iQ;"$classic_cards_sprite_base_class;	@;"$classic-cards-sprite-base-class;iQ:@optionalF;	@;
+[ o;(;iS;	@;"sprite;!0;
+[ ;"[
+o;	;iR;"classic_cards_sprites;	@;"classic-cards-spriteso;	;iR;"	name;	@;"	nameo;	;iR;"dimensions;	@;"dimensionso;	;iR;"offset_x;	@;"offset-xo;	;iR;"offset_y;	@;"offset-y;#{ ;"[	[o;;"	name;	@;"	name0[o;;"dimensions;	@;"dimensionso;	;iP;"$classic_cards_sprite_dimensions;	@;"$classic-cards-sprite-dimensions[o;;"offset_x;	@;"offset-xo;;iP;	@;@';"0;[ ;i [o;;"offset_y;	@;"offset-yo;;iP;	@;@';"0;[ ;i o;';iU;T;	@;"classic-cards-sprites;!0;
+[o;(;iW;	@;"sprites;!0;
+[ ;"[o;	;iV;"classic_cards_sprites;	@;"classic-cards-spriteso;	;iV;"sprite_names;	@;"sprite-nameso;	;iV;"$classic_cards_sprite_base_class;	@;"$classic-cards-sprite-base-classo;	;iV;"dimensions;	@;"dimensionso;	;iV;"prefix;	@;"prefixo;	;iV;"offset_x;	@;"offset-xo;	;iV;"offset_y;	@;"offset-y;#{ ;"[
+[o;;"sprite_names;	@;"sprite-names0[o;;"dimensions;	@;"dimensionso;	;iU;"$classic_cards_sprite_dimensions;	@;"$classic-cards-sprite-dimensions[o;;"prefix;	@;"prefixo; ;iU;	@;"sprite-map-name;!0;"[o;	;iU;"classic_cards_sprites;	@;"classic-cards-sprites;#{ [o;;"offset_x;	@;"offset-xo;;iU;	@;@';"0;[ ;i [o;;"offset_y;	@;"offset-yo;;iU;	@;@';"0;[ ;i o;
+;iY;	@;
+[ ;;;["4/* Generates a class for each sprited image. */o;';iZ;T;	@;"all-classic-cards-sprites;!0;
+[o;(;i[;	@;"classic-cards-sprites;!0;
+[ ;"[
+o:Sass::Script::List	;i[;	@:@separator:
+space;[Go;	;i[;	@;;;"back-h-1o;	;i[;	@;;;"back-h-2o;	;i[;	@;;;"back-h-bottom-2o;	;i[;	@;;;"back-h-bottomo;	;i[;	@;;;"back-h-top-2o;	;i[;	@;;;"back-h-topo;	;i[;	@;;;"back-v-1o;	;i[;	@;;;"back-v-2o;	;i[;	@;;;"back-v-left-2o;	;i[;	@;;;"back-v-lefto;	;i[;	@;;;"back-v-right-2o;	;i[;	@;;;"back-v-righto;	;i[;	@;;;"clubs-10o;	;i[;	@;;;"clubs-2o;	;i[;	@;;;"clubs-3o;	;i[;	@;;;"clubs-4o;	;i[;	@;;;"clubs-5o;	;i[;	@;;;"clubs-6o;	;i[;	@;;;"clubs-7o;	;i[;	@;;;"clubs-8o;	;i[;	@;;;"clubs-9o;	;i[;	@;;;"clubs-ao;	;i[;	@;;;"clubs-jo;	;i[;	@;;;"clubs-ko;	;i[;	@;;;"clubs-qo;	;i[;	@;;;"diamonds-10o;	;i[;	@;;;"diamonds-2o;	;i[;	@;;;"diamonds-3o;	;i[;	@;;;"diamonds-4o;	;i[;	@;;;"diamonds-5o;	;i[;	@;;;"diamonds-6o;	;i[;	@;;;"diamonds-7o;	;i[;	@;;;"diamonds-8o;	;i[;	@;;;"diamonds-9o;	;i[;	@;;;"diamonds-ao;	;i[;	@;;;"diamonds-jo;	;i[;	@;;;"diamonds-ko;	;i[;	@;;;"diamonds-qo;	;i[;	@;;;"hearts-10o;	;i[;	@;;;"hearts-2o;	;i[;	@;;;"hearts-3o;	;i[;	@;;;"hearts-4o;	;i[;	@;;;"hearts-6o;	;i[;	@;;;"hearts-7o;	;i[;	@;;;"hearts-8o;	;i[;	@;;;"hearts-9o;	;i[;	@;;;"hearts-ao;	;i[;	@;;;"hearts-jo;	;i[;	@;;;"hearts-ko;	;i[;	@;;;"hearts-qo;	;i[;	@;;;"herats-5o;	;i[;	@;;;"joker-1o;	;i[;	@;;;"joker-2o;	;i[;	@;;;"spades-10o;	;i[;	@;;;"spades-2o;	;i[;	@;;;"spades-3o;	;i[;	@;;;"spades-4o;	;i[;	@;;;"spades-5o;	;i[;	@;;;"spades-6o;	;i[;	@;;;"spades-7o;	;i[;	@;;;"spades-8o;	;i[;	@;;;"spades-9o;	;i[;	@;;;"spades-ao;	;i[;	@;;;"spades-jo;	;i[;	@;;;"spades-ko;	;i[;	@;;;"spades-qo;	;i[;"dimensions;	@;"dimensionso;	;i[;"prefix;	@;"prefixo;	;i[;"offset_x;	@;"offset-xo;	;i[;"offset_y;	@;"offset-y;#{ ;"[	[o;;"dimensions;	@;"dimensionso;	;iZ;"$classic_cards_sprite_dimensions;	@;"$classic-cards-sprite-dimensions[o;;"prefix;	@;"prefixo; ;iZ;	@;"sprite-map-name;!0;"[o;	;iZ;"classic_cards_sprites;	@;"classic-cards-sprites;#{ [o;;"offset_x;	@;"offset-xo;;iZ;	@;@';"0;[ ;i [o;;"offset_y;	@;"offset-yo;;iZ;	@;@';"0;[ ;i 

@@ -1,0 +1,35 @@
+@import 'compass';
+
+/*
+@import "images/classic-cards/*.png";
+@mixin sprite_css($name) {
+  @include icons-sprite($name);
+  height: icons-sprite-height($name);
+  width: icons-sprite-width($name);
+}
+*/
+body {
+  position: relative;
+}
+$cards-sprite-dimensions: true;
+@import "cards/*.png";
+@include all-cards-sprites;
+
+.card {
+  height: 96px;
+  width: 71px;
+  .front {
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden; /* Chrome and Safari */
+    -moz-backface-visibility:hidden; /* Firefox */
+  }
+  .back {
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden; /* Chrome and Safari */
+    -moz-backface-visibility:hidden; /* Firefox */
+    position: relative;
+    top: -96px;
+    -webkit-transform: rotateY(180deg);
+    z-index: 0;
+  }
+}
