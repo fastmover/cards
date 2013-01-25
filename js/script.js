@@ -84,22 +84,19 @@ zIndex = 10;
 for (suit in suits){
   //Iterate Cards:
   for (card in cards) {
-//    console.log(String(suit['id']));
-//    console.log(String(card.id));
-
-
 
     Deck.Cards.push({
+
       id: String(suits[suit].id + cards[card].id),
       name: String(cards[card].name + " of " + suits[suit].name),
       card: String(cards[card].id),
       suit: String(suits[suit].id),
       image: String('cards-' + suits[suit].id + '-' + cards[card].id),
       z: zIndex,
+
     });
 
     zIndex++;
-
 
   }
 }
@@ -112,82 +109,85 @@ Array.prototype.shuffle = function () {
         this[i] = this[j];
         this[j] = tmp;
     }
-
     return this;
 }
 
+Deck.renderCards = function() {
+  zIndex = 10;
+  for(Card in Deck.Cards) {
+    Deck.Cards[Card].obj = $('<div class="card"><div class="front ' + String(Deck.Cards[Card].image) + '" style="z-index: ' + zIndex + '" ></div><div class="back cards-back-v-1" style="z-index: ' + zIndex + '"></div></div>');
+    jQuery('article').append(Deck.Cards[Card].obj);
+    zIndex++;
+  }
+  Deck.clickable();
+}
+
+Deck.verticalAlignCards = function() {
+
+  cardHeight = $('.card').height();
+  cardPeek = (cardHeight / 5);
+  cardTop = 10;
+
+  $('.card').each(function() {
+
+    $(this).css("position", "absolute");
+    $(this).css("top", cardTop);
+    cardTop += cardPeek;
+
+  });
+}
+
+Deck.diagonalAlignCards = function() {
+
+  cardHeight = $('.card').first().height();
+  cardPeek = (cardHeight / 5);
+  cardTop = 10;
+
+  $('.card').each(function() {
+
+    $(this).css("position", "absolute");
+    $(this).css("top", cardTop);
+    $(this).css("left", cardTop);
+    cardTop += cardPeek;
+
+  });
+
+}
+
+Deck.clickable = function () {
+  $('.card').each(function() {
+    $(this).click(function() {
+      Deck.flipCard(this);
+    });
+    $(this).data('Face', 'Up');
+  });
+}
+
+Deck.flipCard = function(card) {
+  if( $(card).data('Face') == "Up" ) {
+    $(card).css({'-webkit-transform': 'rotateX(180deg)'});
+    $(card).data('Face', 'Down');
+  } else {
+    $(card).css({'-webkit-transform': 'rotateX(0deg)'});
+    $(card).data('Face', 'Up');
+  }
+}
+
+/* !!!!RUN LINE!!!! */
+
+//Wait until jQuery is loaded.
 $(function() {
-
-
-
-  Deck.renderCards = function() {
-    zIndex = 10;
-    for(Card in Deck.Cards) {
-      Deck.Cards[Card].obj = $('<div class="card"><div class="front ' + String(Deck.Cards[Card].image) + '" style="z-index: ' + zIndex + '" ></div><div class="back cards-back-v-1"</div>');
-      jQuery('article').append(Deck.Cards[Card].obj);
-      zIndex++;
-    }
-    Deck.clickable();
-  }
-
-  Deck.verticalAlignCards = function() {
-    cardHeight = $('.card').height();
-    cardPeek = (cardHeight / 5);
-    cardTop = 10;
-    $('.card').each(function() {
-      $(this).css("position", "absolute");
-      $(this).css("top", cardTop);
-      cardTop += cardPeek;
+  $(window).load(function() {
+    Deck.Cards.shuffle();
+    Deck.renderCards();
+    //Wait until images are loaded.
+    $('.card').imagesLoaded(function () {
+      Deck.diagonalAlignCards();
     });
-  }
-  //verticalAlignCards();
+  });
 
 
-  Deck.diagonalAlignCards = function() {
-    cardHeight = $('.card').height();
-    cardPeek = (cardHeight / 5);
-    cardTop = 10;
-    $('.card').each(function() {
-      $(this).css("position", "absolute");
-      $(this).css("top", cardTop);
-      $(this).css("left", cardTop);
-      cardTop += cardPeek;
-    });
-  }
 
-    Deck.clickable = function () {
-    $('.card').each(function() {
-      $(this).click(function() {
-        Deck.flipCard(this);
-      });
-      $(this).data(this, 'Face', 'Up');
-    });
-  }
-
-  Deck.flipCard = function(card) {
-    if( $(this).data('Face') == "Up" ) {
-      $(card).css({ 
-      /*WebkitTransform: 'rotateX(180deg)'*/
-        '-webkit-transform': 'rotateX(180deg)',
-      }, 1000);
-      $(card).data('Face', 'Down');
-    } else {
-      $(card).css({ 
-      /*WebkitTransform: 'rotateX(180deg)'*/
-        '-webkit-transform': 'rotateX(0deg)',
-      }, 1000);
-      $(this).data('Face', 'Up');
-    }
-    
-    //$(card).find('.bottom').animate({ WebkitTransform: 'rotateX(0deg)'}, 1000);
-  }
-
-
-  /* !!!!RUN LINE!!!! */
-  //diagonalAlignCards();
-  Deck.Cards.shuffle();
-  Deck.renderCards();
-  Deck.diagonalAlignCards();
 
 
 });

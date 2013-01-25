@@ -2,6 +2,17 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
+    "\/images\/cards\/hearts-a.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/cards\/hearts-a.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/cards\/hearts-a.png",
+      "initialSize" : 453,
+      "fileType" : 8192
+    },
     "\/images\/cards\/hearts-7.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -110,17 +121,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/cards\/diamonds-q.png",
       "initialSize" : 3110,
-      "fileType" : 8192
-    },
-    "\/images\/cards-s185cb01542.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/cards-s185cb01542.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/cards-s185cb01542.png",
-      "initialSize" : 53380,
       "fileType" : 8192
     },
     "\/images\/cards\/clubs-4.png" : {
@@ -286,17 +286,6 @@
       "initialSize" : 192,
       "fileType" : 8192
     },
-    "\/images\/cards\/hearts-j.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/cards\/hearts-j.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/cards\/hearts-j.png",
-      "initialSize" : 3111,
-      "fileType" : 8192
-    },
     "\/images\/cards\/spades-a.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -306,6 +295,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/cards\/spades-a.png",
       "initialSize" : 583,
+      "fileType" : 8192
+    },
+    "\/images\/cards\/hearts-j.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/cards\/hearts-j.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/cards\/hearts-j.png",
+      "initialSize" : 3111,
       "fileType" : 8192
     },
     "\/images\/cards\/spades-6.png" : {
@@ -341,17 +341,6 @@
       "initialSize" : 3189,
       "fileType" : 8192
     },
-    "\/images\/cards\/clubs-2.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/cards\/clubs-2.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/cards\/clubs-2.png",
-      "initialSize" : 457,
-      "fileType" : 8192
-    },
     "\/images\/cards\/clubs-k.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -361,6 +350,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/cards\/clubs-k.png",
       "initialSize" : 3033,
+      "fileType" : 8192
+    },
+    "\/images\/cards\/clubs-2.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/cards\/clubs-2.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/cards\/clubs-2.png",
+      "initialSize" : 457,
       "fileType" : 8192
     },
     "\/images\/cards\/back-h-1.png" : {
@@ -462,17 +462,6 @@
       "initialSize" : 197,
       "fileType" : 8192
     },
-    "\/images\/cards\/diamonds-2.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/cards\/diamonds-2.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/cards\/diamonds-2.png",
-      "initialSize" : 411,
-      "fileType" : 8192
-    },
     "\/images\/cards\/clubs-j.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -482,6 +471,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/cards\/clubs-j.png",
       "initialSize" : 3153,
+      "fileType" : 8192
+    },
+    "\/images\/cards\/diamonds-2.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/cards\/diamonds-2.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/cards\/diamonds-2.png",
+      "initialSize" : 411,
       "fileType" : 8192
     },
     "\/images\/cards\/diamonds-3.png" : {
@@ -506,15 +506,15 @@
       "initialSize" : 630,
       "fileType" : 8192
     },
-    "\/images\/cards\/clubs-7.png" : {
+    "\/images\/cards\/diamonds-4.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/cards\/clubs-7.png",
+      "inputAbbreviatedPath" : "\/images\/cards\/diamonds-4.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/cards\/clubs-7.png",
-      "initialSize" : 610,
+      "outputAbbreviatedPath" : "\/images\/cards\/diamonds-4.png",
+      "initialSize" : 435,
       "fileType" : 8192
     },
     "\/js\/jquery.js" : {
@@ -528,16 +528,25 @@
       "outputAbbreviatedPath" : "\/js\/jquery-ck.js",
       "fileType" : 64
     },
-    "\/images\/cards\/diamonds-4.png" : {
+    "\/images\/cards\/clubs-7.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/cards\/diamonds-4.png",
+      "inputAbbreviatedPath" : "\/images\/cards\/clubs-7.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/cards\/diamonds-4.png",
-      "initialSize" : 435,
+      "outputAbbreviatedPath" : "\/images\/cards\/clubs-7.png",
+      "initialSize" : 610,
       "fileType" : 8192
+    },
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
     },
     "\/images\/cards\/diamonds-5.png" : {
       "ignoreWasSetByUser" : 0,
@@ -550,14 +559,16 @@
       "initialSize" : 478,
       "fileType" : 8192
     },
-    "\/config.rb" : {
+    "\/images\/cards\/diamonds-6.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
+      "inputAbbreviatedPath" : "\/images\/cards\/diamonds-6.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/cards\/diamonds-6.png",
+      "initialSize" : 463,
+      "fileType" : 8192
     },
     "\/scss\/style.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -570,17 +581,6 @@
       "outputAbbreviatedPath" : "\/css\/style.css",
       "fileType" : 4,
       "debugStyle" : 2
-    },
-    "\/images\/cards\/diamonds-6.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/cards\/diamonds-6.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/cards\/diamonds-6.png",
-      "initialSize" : 463,
-      "fileType" : 8192
     },
     "\/images\/cards\/diamonds-a.png" : {
       "ignoreWasSetByUser" : 0,
@@ -670,17 +670,6 @@
       "initialSize" : 191,
       "fileType" : 8192
     },
-    "\/images\/cards\/hearts-3.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/cards\/hearts-3.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/cards\/hearts-3.png",
-      "initialSize" : 508,
-      "fileType" : 8192
-    },
     "\/images\/cards\/clubs-6.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -701,6 +690,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/cards\/spades-j.png",
       "initialSize" : 3092,
+      "fileType" : 8192
+    },
+    "\/images\/cards\/hearts-3.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/cards\/hearts-3.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/cards\/hearts-3.png",
+      "initialSize" : 508,
       "fileType" : 8192
     },
     "\/images\/cards\/hearts-4.png" : {
@@ -778,6 +778,17 @@
       "initialSize" : 2119,
       "fileType" : 8192
     },
+    "\/js\/jquery.imagesloaded.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/jquery.imagesloaded.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery.imagesloaded-ck.js",
+      "fileType" : 64
+    },
     "\/images\/cards\/hearts-6.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -789,28 +800,6 @@
       "initialSize" : 531,
       "fileType" : 8192
     },
-    "\/images\/cards\/diamonds-k.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/cards\/diamonds-k.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/cards\/diamonds-k.png",
-      "initialSize" : 3093,
-      "fileType" : 8192
-    },
-    "\/images\/cards\/hearts-a.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/cards\/hearts-a.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/cards\/hearts-a.png",
-      "initialSize" : 453,
-      "fileType" : 8192
-    },
     "\/images\/cards\/clubs-5.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -820,6 +809,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/cards\/clubs-5.png",
       "initialSize" : 553,
+      "fileType" : 8192
+    },
+    "\/images\/cards\/diamonds-k.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/cards\/diamonds-k.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/cards\/diamonds-k.png",
+      "initialSize" : 3093,
       "fileType" : 8192
     }
   },

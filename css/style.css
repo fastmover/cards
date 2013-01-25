@@ -1,12 +1,4 @@
-                             /*
-@import "images/classic-cards/*.png";
-@mixin sprite_css($name) {
-  @include icons-sprite($name);
-  height: icons-sprite-height($name);
-  width: icons-sprite-width($name);
-}
-*/
-/* line 11, ../scss/style.scss */
+/* line 7, ../scss/style.scss */
 body {
   position: relative; }
 
@@ -410,18 +402,24 @@ body {
   height: 96px;
   width: 72px; }
 
-/* line 18, ../scss/style.scss */
+/* line 14, ../scss/style.scss */
 .card {
   height: 96px;
-  width: 71px; }
-  /* line 21, ../scss/style.scss */
+  width: 72px;
+  -webkit-transition-duration: 250ms;
+  -webkit-transform: rotateX(0deg);
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.25s; }
+  /* line 22, ../scss/style.scss */
   .card .front {
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     /* Chrome and Safari */
     -moz-backface-visibility: hidden;
-    /* Firefox */ }
-  /* line 26, ../scss/style.scss */
+    /* Firefox */
+    -webkit-transform: rotateX(0deg);
+    -webkit-transition-duration: 250ms; }
+  /* line 29, ../scss/style.scss */
   .card .back {
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -430,5 +428,6 @@ body {
     /* Firefox */
     position: relative;
     top: -96px;
-    -webkit-transform: rotateY(180deg);
+    -webkit-transform: rotateX(180deg);
+    -webkit-transition-duration: 250ms;
     z-index: 0; }
