@@ -1,0 +1,30 @@
+@import "compass"
+@import "compass/css3/transform"
+
+$cardHeight: 96px
+$cardWidth: 72px
+
+body 
+	position: absolute
+
+$cards-sprite-dimensions: true
+@import "public/images/cards/*.png"
+@include all-cards-sprites
+
+.card
+	height: $cardHeight
+	width: $cardWidth
+	-webkit-transition-duration: 250ms
+	-webkit-transform: rotateX(0deg)
+	-webkit-transform-style: preserve-3d
+	-webkit-transition: 0.25s
+	.front 
+		@include backface-visibility(hidden)
+		transform: rotateX(0deg)
+		duration: 250ms
+	.back 
+		@include backface-visibility(hidden)
+		position: relative
+		top: -96px
+		@include rotateX(180deg)
+		z-index: 0
