@@ -1,11 +1,11 @@
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "/"
-css_dir = "css"
-sass_dir = "scss"
-images_dir = "images"
-javascripts_dir = "javascripts"
+http_path = "/"	
+css_dir = "public/css"
+sass_dir = "sass"
+images_dir = "public/images"
+javascripts_dir = "public/js"
 fonts_dir = "fonts"
 
 output_style = :nested
@@ -15,7 +15,7 @@ output_style = :nested
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 # line_comments = false
-color_output = false
+color_output = true
 
 
 # If you prefer the indented syntax, you might want to regenerate this
