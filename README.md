@@ -9,4 +9,6 @@ Now setup with GruntJS.
 
 grunt watch will update sass -> css files.
 
-Currently integrating Vagrant/puppet as well.
+To see the page served, install connect: 
+`npm install connect`
+then navigate to: localhost:8080/public
